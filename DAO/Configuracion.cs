@@ -14,7 +14,7 @@ namespace DAO
         private static string cadenaConexion = String.Format("Server={0};Port={1};" +
                  "User Id={2};Password={3};Database={4};",
                  "localhost", 5432, "postgres",
-                 123456, "puzzle");
+                 123456, "juegos_educativos");
         /// <summary>
         /// metodo que getea la cadena de coneccion a base de datos
         /// </summary>

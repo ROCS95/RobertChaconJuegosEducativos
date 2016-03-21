@@ -1,0 +1,9 @@
+C:\Users\Robert\Desktop\progra III\RobertyJoseJuegosEducativos\DAO\bin\Debug\DAO.dll
+C:\Users\Robert\Desktop\progra III\RobertyJoseJuegosEducativos\DAO\bin\Debug\DAO.pdb
+C:\Users\Robert\Desktop\progra III\RobertyJoseJuegosEducativos\DAO\bin\Debug\Entidades.dll
+C:\Users\Robert\Desktop\progra III\RobertyJoseJuegosEducativos\DAO\bin\Debug\Npgsql.dll
+C:\Users\Robert\Desktop\progra III\RobertyJoseJuegosEducativos\DAO\bin\Debug\Entidades.pdb
+C:\Users\Robert\Desktop\progra III\RobertyJoseJuegosEducativos\DAO\bin\Debug\Npgsql.xml
+C:\Users\Robert\Desktop\progra III\RobertyJoseJuegosEducativos\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Robert\Desktop\progra III\RobertyJoseJuegosEducativos\DAO\obj\Debug\DAO.dll
+C:\Users\Robert\Desktop\progra III\RobertyJoseJuegosEducativos\DAO\obj\Debug\DAO.pdb

@@ -62,6 +62,7 @@
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.dgvRangking);
             this.Name = "FrmRangking";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmRangking";
             this.Load += new System.EventHandler(this.FrmRangking_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvRangking)).EndInit();

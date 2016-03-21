@@ -1,4 +1,5 @@
-﻿using Entidades;
+﻿using BO;
+using Entidades;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -27,6 +28,8 @@ namespace RobertyJoseJuegosEducativos
             tbxVictorias.Text = Convert.ToString(Participante.Victoria);
             tbxTiempo.Text = Convert.ToString(Participante.TiempoPromedio);
             pictureBox1.Image = Participante.Foto.Foto;
+            lblNombre.Text = Participante.Nombre;
+            lblUsuario.Text = Participante.User;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -37,8 +40,17 @@ namespace RobertyJoseJuegosEducativos
                 User = Participante,
                 IdImagen = IdImagen
             };
-            reg.Show(this);
             this.Hide();
+            if (reg.ShowDialog(this) == DialogResult.OK)
+            {
+                UsuarioBO pbo = new UsuarioBO();
+                //Refrescar los datos del usuarios en el cuadro de texto
+                pbo.RefrescarUsuario(Participante);
+                lblNombre.Text = this.Participante.Nombre;
+                pictureBox1.Image = this.Participante.Foto != null ? this.Participante.Foto.Foto : null;
+                lblUsuario.Text = this.Participante.User;
+            }
+            
         }
 
         private void lblUsuario_Click(object sender, EventArgs e)
@@ -60,6 +72,13 @@ namespace RobertyJoseJuegosEducativos
         {
             FrmRangking rang = new FrmRangking();
             rang.ShowDialog(this);
+        }
+
+        private void btnJugar_Click(object sender, EventArgs e)
+        {
+            FrmJuego j = new FrmJuego();
+            this.Hide();
+            j.Show(this);
         }
     }
 }

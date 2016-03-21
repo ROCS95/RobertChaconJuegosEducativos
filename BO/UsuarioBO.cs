@@ -56,5 +56,10 @@ namespace BO
 
             return udao.EditarUsuario(user);
         }
+
+        public void RefrescarUsuario(Usuario participante)
+        {
+            udao.RefrescarUsuario(participante);
+        }
     }
 }

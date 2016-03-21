@@ -51,8 +51,6 @@ namespace DAO
 
         public void EditarImagen(Imagen foto, NpgsqlConnection con)
         {
-
-            con.Open();
             string sql = @"UPDATE foto
                                SET foto= :ima
                                 WHERE id = :id;";
@@ -64,7 +62,7 @@ namespace DAO
 
             cmd.Parameters.AddWithValue("ima", pic);
             cmd.Parameters.AddWithValue(":id", foto.Id);
-            cmd.ExecuteReader();
+            cmd.ExecuteNonQuery();
 
         }
     }

@@ -96,6 +96,7 @@ namespace RobertyJoseJuegosEducativos
                 txtCorreo.Text = User.Correo;
                 txtNombreCompleto.Text = User.Nombre;
                 txtUsuario.Text = User.User;
+                pbxFoto.Image = User.Foto.Foto;
             }
         }
 

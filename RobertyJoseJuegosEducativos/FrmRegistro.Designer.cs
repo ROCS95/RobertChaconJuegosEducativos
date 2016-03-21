@@ -203,6 +203,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtUsuario);
             this.Name = "FrmRegistro";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registro";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmRegistro_FormClosed);
             this.Load += new System.EventHandler(this.FrmRegistro_Load);

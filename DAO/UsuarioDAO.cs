@@ -57,6 +57,50 @@ namespace DAO
             }
         }
 
+        public void RefrescarUsuario(Usuario participante)
+        {
+            NpgsqlConnection con = null;
+            try
+            {
+                Usuario p = new Usuario();
+                using (con = new NpgsqlConnection(Configuracion.CadenaConexion))
+                {
+                    con.Open();
+                    string sql = @"SELECT id,  nombre, correo, id_foto, 
+                              contrasena, usuario, victorias, tiempo_promedio
+                              FROM usuario
+                               where usuario = :usu";
+                    NpgsqlCommand cmd = new NpgsqlCommand(sql, con);
+                    cmd.Parameters.AddWithValue("usu", participante.User);
+                    cmd.Parameters.AddWithValue("con", participante.Contrasena);
+                    NpgsqlDataReader reader = cmd.ExecuteReader();
+                    if (reader.Read())
+                    {
+                        p.Id = reader.GetInt32(0);
+                        p.Nombre = reader.GetString(1);
+                        p.Correo = reader.GetString(2);
+                        ImagenDAO idao = new ImagenDAO();
+                        p.Foto = reader.IsDBNull(3) ? new Imagen() : idao.CargarFoto(reader.GetInt32(3));
+                        p.Foto.Id = reader.GetInt32(3);
+                        p.Contrasena = reader.GetString(4);
+                        p.User = reader.GetString(5);
+                        p.Victoria = reader.GetInt32(6);
+                        p.TiempoPromedio = reader.GetInt32(7);
+                    }
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                if (con != null)
+                {
+                    con.Close();
+                }
+
+                throw new Exception(ex.Message);
+            }
+        }
+
         public object CargarCargarRangking()
         {
             NpgsqlConnection con = null;
@@ -106,7 +150,7 @@ namespace DAO
                     idao.EditarImagen(user.Foto, con);
                     string sql = @"UPDATE public.usuario
                                 SET nombre = :nom, correo = :cor,
-                                contrasena = :con, usuario = use
+                                contrasena = :con, usuario = :usu
                                  WHERE id = :idu;";
                     NpgsqlCommand cmd = new NpgsqlCommand(sql, con);
 

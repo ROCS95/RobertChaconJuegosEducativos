@@ -127,6 +127,7 @@
             this.btnJugar.TabIndex = 6;
             this.btnJugar.Text = "Juegar";
             this.btnJugar.UseVisualStyleBackColor = true;
+            this.btnJugar.Click += new System.EventHandler(this.btnJugar_Click);
             // 
             // btnrangkin
             // 
@@ -152,6 +153,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.gbxUsuario);
             this.Name = "FrmPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmPrincipal";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmPrincipal_FormClosed);
             this.Load += new System.EventHandler(this.FrmPrincipal_Load);

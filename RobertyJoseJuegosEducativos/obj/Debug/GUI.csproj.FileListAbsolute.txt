@@ -18,3 +18,4 @@ C:\Users\Robert\Desktop\progra III\RobertyJoseJuegosEducativos\RobertyJoseJuegos
 C:\Users\Robert\Desktop\progra III\RobertyJoseJuegosEducativos\RobertyJoseJuegosEducativos\obj\Debug\GUI.csproj.GenerateResource.Cache
 C:\Users\Robert\Desktop\progra III\RobertyJoseJuegosEducativos\RobertyJoseJuegosEducativos\obj\Debug\RobertyJoseJuegosEducativos.exe
 C:\Users\Robert\Desktop\progra III\RobertyJoseJuegosEducativos\RobertyJoseJuegosEducativos\obj\Debug\RobertyJoseJuegosEducativos.pdb
+C:\Users\Robert\Desktop\progra III\RobertyJoseJuegosEducativos\RobertyJoseJuegosEducativos\obj\Debug\RobertyJoseJuegosEducativos.FrmJuego.resources

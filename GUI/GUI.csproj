@@ -61,6 +61,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmCorreo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCorreo.Designer.cs">
+      <DependentUpon>FrmCorreo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmJuego.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmCorreo.resx">
+      <DependentUpon>FrmCorreo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmJuego.resx">
       <DependentUpon>FrmJuego.cs</DependentUpon>
     </EmbeddedResource>

@@ -114,7 +114,7 @@ namespace DAO
                     con.Open();
                     string sql = @"SELECT usuario, victorias, tiempo_promedio
                               FROM usuario
-                              ORDER BY victorias DESC;";
+                              ORDER BY victorias DESC limit 5;";
                     NpgsqlCommand cmd = new NpgsqlCommand(sql, con);
                     NpgsqlDataAdapter da = new NpgsqlDataAdapter();
                     da.SelectCommand = cmd;

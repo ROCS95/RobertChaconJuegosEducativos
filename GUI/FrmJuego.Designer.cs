@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.btnDado = new System.Windows.Forms.Button();
-            this.pbxDado = new System.Windows.Forms.PictureBox();
+            this.pbxDado1 = new System.Windows.Forms.PictureBox();
             this.pbxJ1 = new System.Windows.Forms.PictureBox();
             this.pbxJ2 = new System.Windows.Forms.PictureBox();
             this.pbx110 = new System.Windows.Forms.PictureBox();
@@ -154,7 +154,8 @@
             this.pbx21 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxDado)).BeginInit();
+            this.pbxdado2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxDado1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxJ1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxJ2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx110)).BeginInit();
@@ -277,6 +278,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbx1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxdado2)).BeginInit();
             this.SuspendLayout();
             // 
             // btnDado
@@ -289,16 +291,16 @@
             this.btnDado.Text = "Dice Roll";
             this.btnDado.UseVisualStyleBackColor = true;
             // 
-            // pbxDado
+            // pbxDado1
             // 
-            this.pbxDado.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbxDado.Image = global::GUI.Properties.Resources.dado1;
-            this.pbxDado.Location = new System.Drawing.Point(1096, 396);
-            this.pbxDado.Name = "pbxDado";
-            this.pbxDado.Size = new System.Drawing.Size(138, 145);
-            this.pbxDado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxDado.TabIndex = 127;
-            this.pbxDado.TabStop = false;
+            this.pbxDado1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbxDado1.Image = global::GUI.Properties.Resources.dado1;
+            this.pbxDado1.Location = new System.Drawing.Point(1096, 396);
+            this.pbxDado1.Name = "pbxDado1";
+            this.pbxDado1.Size = new System.Drawing.Size(138, 145);
+            this.pbxDado1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxDado1.TabIndex = 127;
+            this.pbxDado1.TabStop = false;
             // 
             // pbxJ1
             // 
@@ -1660,14 +1662,26 @@
             this.label2.TabIndex = 129;
             this.label2.Text = "Jugador 1";
             // 
+            // pbxdado2
+            // 
+            this.pbxdado2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbxdado2.Image = global::GUI.Properties.Resources.dado4;
+            this.pbxdado2.Location = new System.Drawing.Point(1096, 227);
+            this.pbxdado2.Name = "pbxdado2";
+            this.pbxdado2.Size = new System.Drawing.Size(138, 145);
+            this.pbxdado2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxdado2.TabIndex = 130;
+            this.pbxdado2.TabStop = false;
+            // 
             // FrmJuego
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1246, 702);
+            this.Controls.Add(this.pbxdado2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pbxDado);
+            this.Controls.Add(this.pbxDado1);
             this.Controls.Add(this.btnDado);
             this.Controls.Add(this.pbxJ1);
             this.Controls.Add(this.pbxJ2);
@@ -1797,7 +1811,7 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmJuego_FormClosed);
             this.Load += new System.EventHandler(this.FrmJuego_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pbxDado)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxDado1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxJ1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxJ2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx110)).EndInit();
@@ -1920,6 +1934,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbx1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbx21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxdado2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2050,8 +2065,9 @@
         private System.Windows.Forms.PictureBox pbxJ2;
         private System.Windows.Forms.PictureBox pbxJ1;
         private System.Windows.Forms.Button btnDado;
-        private System.Windows.Forms.PictureBox pbxDado;
+        private System.Windows.Forms.PictureBox pbxDado1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pbxdado2;
     }
 }

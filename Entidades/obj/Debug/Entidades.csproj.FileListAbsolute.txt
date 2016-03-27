@@ -3,3 +3,8 @@ C:\Users\Robert\Desktop\progra III\RobertyJoseJuegosEducativos\Entidades\bin\Deb
 C:\Users\Robert\Desktop\progra III\RobertyJoseJuegosEducativos\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
 C:\Users\Robert\Desktop\progra III\RobertyJoseJuegosEducativos\Entidades\obj\Debug\Entidades.dll
 C:\Users\Robert\Desktop\progra III\RobertyJoseJuegosEducativos\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\Entidades\bin\Debug\Entidades.dll
+C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\Entidades\obj\Debug\Entidades.dll
+C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\Entidades\obj\Debug\Entidades.pdb

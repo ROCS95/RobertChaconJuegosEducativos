@@ -9,3 +9,14 @@ C:\Users\Robert\Desktop\progra III\RobertyJoseJuegosEducativos\BO\bin\Debug\Npgs
 C:\Users\Robert\Desktop\progra III\RobertyJoseJuegosEducativos\BO\obj\Debug\BO.csprojResolveAssemblyReference.cache
 C:\Users\Robert\Desktop\progra III\RobertyJoseJuegosEducativos\BO\obj\Debug\BO.dll
 C:\Users\Robert\Desktop\progra III\RobertyJoseJuegosEducativos\BO\obj\Debug\BO.pdb
+C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\BO\bin\Debug\BO.dll
+C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\BO\bin\Debug\BO.pdb
+C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\BO\bin\Debug\DAO.dll
+C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\BO\bin\Debug\Entidades.dll
+C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\BO\bin\Debug\Npgsql.dll
+C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\BO\bin\Debug\DAO.pdb
+C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\BO\bin\Debug\Entidades.pdb
+C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\BO\bin\Debug\Npgsql.xml
+C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\BO\obj\Debug\BO.csprojResolveAssemblyReference.cache
+C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\BO\obj\Debug\BO.dll
+C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\BO\obj\Debug\BO.pdb

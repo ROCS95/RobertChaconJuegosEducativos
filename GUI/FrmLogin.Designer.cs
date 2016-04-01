@@ -28,47 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnlogin = new System.Windows.Forms.Button();
-            this.tbxUser = new System.Windows.Forms.TextBox();
-            this.tbxcontrasena = new System.Windows.Forms.TextBox();
+            this.btnlogin1 = new System.Windows.Forms.Button();
+            this.tbxUser1 = new System.Windows.Forms.TextBox();
+            this.tbxcontrasena1 = new System.Windows.Forms.TextBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnlogin
+            // btnlogin1
             // 
-            this.btnlogin.Location = new System.Drawing.Point(231, 264);
-            this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(136, 45);
-            this.btnlogin.TabIndex = 1;
-            this.btnlogin.Text = "Login";
-            this.btnlogin.UseVisualStyleBackColor = true;
-            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
+            this.btnlogin1.Location = new System.Drawing.Point(231, 264);
+            this.btnlogin1.Name = "btnlogin1";
+            this.btnlogin1.Size = new System.Drawing.Size(136, 45);
+            this.btnlogin1.TabIndex = 1;
+            this.btnlogin1.Text = "Login";
+            this.btnlogin1.UseVisualStyleBackColor = true;
+            this.btnlogin1.Click += new System.EventHandler(this.btnlogin_Click);
             // 
-            // tbxUser
+            // tbxUser1
             // 
-            this.tbxUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(167)))), ((int)(((byte)(118)))));
-            this.tbxUser.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbxUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.tbxUser.Location = new System.Drawing.Point(211, 169);
-            this.tbxUser.Name = "tbxUser";
-            this.tbxUser.Size = new System.Drawing.Size(180, 19);
-            this.tbxUser.TabIndex = 2;
-            this.tbxUser.Text = "Usuario";
-            this.tbxUser.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tbxUser1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(167)))), ((int)(((byte)(118)))));
+            this.tbxUser1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbxUser1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
+            this.tbxUser1.Location = new System.Drawing.Point(211, 169);
+            this.tbxUser1.Name = "tbxUser1";
+            this.tbxUser1.Size = new System.Drawing.Size(180, 19);
+            this.tbxUser1.TabIndex = 2;
+            this.tbxUser1.Text = "Usuario";
+            this.tbxUser1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // tbxcontrasena
+            // tbxcontrasena1
             // 
-            this.tbxcontrasena.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(167)))), ((int)(((byte)(118)))));
-            this.tbxcontrasena.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbxcontrasena.Location = new System.Drawing.Point(211, 225);
-            this.tbxcontrasena.Name = "tbxcontrasena";
-            this.tbxcontrasena.PasswordChar = '♠';
-            this.tbxcontrasena.Size = new System.Drawing.Size(180, 13);
-            this.tbxcontrasena.TabIndex = 3;
-            this.tbxcontrasena.Text = "Contasena";
-            this.tbxcontrasena.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tbxcontrasena1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(167)))), ((int)(((byte)(118)))));
+            this.tbxcontrasena1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbxcontrasena1.Location = new System.Drawing.Point(211, 225);
+            this.tbxcontrasena1.Name = "tbxcontrasena1";
+            this.tbxcontrasena1.PasswordChar = '♠';
+            this.tbxcontrasena1.Size = new System.Drawing.Size(180, 13);
+            this.tbxcontrasena1.TabIndex = 3;
+            this.tbxcontrasena1.Text = "Contasena";
+            this.tbxcontrasena1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // linkLabel1
             // 
@@ -100,9 +100,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(605, 436);
             this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.tbxcontrasena);
-            this.Controls.Add(this.tbxUser);
-            this.Controls.Add(this.btnlogin);
+            this.Controls.Add(this.tbxcontrasena1);
+            this.Controls.Add(this.tbxUser1);
+            this.Controls.Add(this.btnlogin1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -117,9 +117,9 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btnlogin;
-        private System.Windows.Forms.TextBox tbxUser;
-        private System.Windows.Forms.TextBox tbxcontrasena;
+        private System.Windows.Forms.Button btnlogin1;
+        private System.Windows.Forms.TextBox tbxUser1;
+        private System.Windows.Forms.TextBox tbxcontrasena1;
         private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }

@@ -39,8 +39,8 @@ namespace GUI
         {
             Usuario us = new Usuario()
             {
-                User = tbxUser.Text,
-                Contrasena = tbxcontrasena.Text
+                User = tbxUser1.Text,
+                Contrasena = tbxcontrasena1.Text
             };
 
             us = ubo.Autentificiar(us);

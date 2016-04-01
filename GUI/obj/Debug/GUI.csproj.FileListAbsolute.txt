@@ -35,7 +35,6 @@ C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\GUI\bin\Debug\En
 C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\GUI\bin\Debug\DAO.pdb
 C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\GUI\bin\Debug\Npgsql.xml
 C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
-C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\GUI\obj\Debug\GUI.FrmJuego.resources
 C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\GUI\obj\Debug\GUI.FrmLogin.resources
 C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\GUI\obj\Debug\GUI.FrmPrincipal.resources
 C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\GUI\obj\Debug\GUI.FrmRangking.resources
@@ -44,3 +43,5 @@ C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\GUI\obj\Debug\GU
 C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
 C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\GUI\obj\Debug\GUI.exe
 C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\GUI\obj\Debug\GUI.pdb
+C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\GUI\obj\Debug\GUI.FrmCorreo.resources
+C:\Users\Robert\Desktop\progra III\RobertChaconJuegosEducativos\GUI\obj\Debug\GUI.FrmJuego.resources

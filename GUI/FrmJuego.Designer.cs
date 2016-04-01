@@ -29,1624 +29,153 @@
         private void InitializeComponent()
         {
             this.btnDado = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button111 = new System.Windows.Forms.Button();
+            this.button112 = new System.Windows.Forms.Button();
+            this.button113 = new System.Windows.Forms.Button();
+            this.button114 = new System.Windows.Forms.Button();
+            this.button115 = new System.Windows.Forms.Button();
+            this.button116 = new System.Windows.Forms.Button();
+            this.button117 = new System.Windows.Forms.Button();
+            this.button118 = new System.Windows.Forms.Button();
+            this.button119 = new System.Windows.Forms.Button();
+            this.button120 = new System.Windows.Forms.Button();
+            this.button101 = new System.Windows.Forms.Button();
+            this.button102 = new System.Windows.Forms.Button();
+            this.button103 = new System.Windows.Forms.Button();
+            this.button104 = new System.Windows.Forms.Button();
+            this.button105 = new System.Windows.Forms.Button();
+            this.button106 = new System.Windows.Forms.Button();
+            this.button107 = new System.Windows.Forms.Button();
+            this.button108 = new System.Windows.Forms.Button();
+            this.button109 = new System.Windows.Forms.Button();
+            this.button110 = new System.Windows.Forms.Button();
+            this.button92 = new System.Windows.Forms.Button();
+            this.button93 = new System.Windows.Forms.Button();
+            this.button94 = new System.Windows.Forms.Button();
+            this.button95 = new System.Windows.Forms.Button();
+            this.button96 = new System.Windows.Forms.Button();
+            this.button97 = new System.Windows.Forms.Button();
+            this.button98 = new System.Windows.Forms.Button();
+            this.button99 = new System.Windows.Forms.Button();
+            this.button100 = new System.Windows.Forms.Button();
+            this.button82 = new System.Windows.Forms.Button();
+            this.button83 = new System.Windows.Forms.Button();
+            this.button84 = new System.Windows.Forms.Button();
+            this.button85 = new System.Windows.Forms.Button();
+            this.button86 = new System.Windows.Forms.Button();
+            this.button87 = new System.Windows.Forms.Button();
+            this.button88 = new System.Windows.Forms.Button();
+            this.button90 = new System.Windows.Forms.Button();
+            this.button71 = new System.Windows.Forms.Button();
+            this.button72 = new System.Windows.Forms.Button();
+            this.button73 = new System.Windows.Forms.Button();
+            this.button74 = new System.Windows.Forms.Button();
+            this.button75 = new System.Windows.Forms.Button();
+            this.button76 = new System.Windows.Forms.Button();
+            this.button77 = new System.Windows.Forms.Button();
+            this.button78 = new System.Windows.Forms.Button();
+            this.button79 = new System.Windows.Forms.Button();
+            this.button80 = new System.Windows.Forms.Button();
+            this.button61 = new System.Windows.Forms.Button();
+            this.button62 = new System.Windows.Forms.Button();
+            this.button64 = new System.Windows.Forms.Button();
+            this.button65 = new System.Windows.Forms.Button();
+            this.button66 = new System.Windows.Forms.Button();
+            this.button67 = new System.Windows.Forms.Button();
+            this.button68 = new System.Windows.Forms.Button();
+            this.button69 = new System.Windows.Forms.Button();
+            this.button51 = new System.Windows.Forms.Button();
+            this.button52 = new System.Windows.Forms.Button();
+            this.button53 = new System.Windows.Forms.Button();
+            this.button54 = new System.Windows.Forms.Button();
+            this.button55 = new System.Windows.Forms.Button();
+            this.button56 = new System.Windows.Forms.Button();
+            this.button57 = new System.Windows.Forms.Button();
+            this.button58 = new System.Windows.Forms.Button();
+            this.button59 = new System.Windows.Forms.Button();
+            this.button60 = new System.Windows.Forms.Button();
+            this.button41 = new System.Windows.Forms.Button();
+            this.button42 = new System.Windows.Forms.Button();
+            this.button43 = new System.Windows.Forms.Button();
+            this.button44 = new System.Windows.Forms.Button();
+            this.button45 = new System.Windows.Forms.Button();
+            this.button46 = new System.Windows.Forms.Button();
+            this.button47 = new System.Windows.Forms.Button();
+            this.button48 = new System.Windows.Forms.Button();
+            this.button49 = new System.Windows.Forms.Button();
+            this.button50 = new System.Windows.Forms.Button();
+            this.button31 = new System.Windows.Forms.Button();
+            this.button32 = new System.Windows.Forms.Button();
+            this.button33 = new System.Windows.Forms.Button();
+            this.button35 = new System.Windows.Forms.Button();
+            this.button37 = new System.Windows.Forms.Button();
+            this.button38 = new System.Windows.Forms.Button();
+            this.button39 = new System.Windows.Forms.Button();
+            this.button40 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
+            this.button26 = new System.Windows.Forms.Button();
+            this.button27 = new System.Windows.Forms.Button();
+            this.button28 = new System.Windows.Forms.Button();
+            this.button29 = new System.Windows.Forms.Button();
+            this.button30 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button91 = new System.Windows.Forms.Button();
+            this.button81 = new System.Windows.Forms.Button();
+            this.button89 = new System.Windows.Forms.Button();
+            this.button63 = new System.Windows.Forms.Button();
+            this.button70 = new System.Windows.Forms.Button();
+            this.button34 = new System.Windows.Forms.Button();
+            this.button36 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pbxdado2 = new System.Windows.Forms.PictureBox();
             this.pbxDado1 = new System.Windows.Forms.PictureBox();
             this.pbxJ1 = new System.Windows.Forms.PictureBox();
             this.pbxJ2 = new System.Windows.Forms.PictureBox();
-            this.pbx110 = new System.Windows.Forms.PictureBox();
-            this.pbx120 = new System.Windows.Forms.PictureBox();
-            this.pbx80 = new System.Windows.Forms.PictureBox();
-            this.pbx90 = new System.Windows.Forms.PictureBox();
-            this.pbx100 = new System.Windows.Forms.PictureBox();
-            this.pbx70 = new System.Windows.Forms.PictureBox();
-            this.pbx60 = new System.Windows.Forms.PictureBox();
-            this.pbx50 = new System.Windows.Forms.PictureBox();
-            this.pbx40 = new System.Windows.Forms.PictureBox();
-            this.pbx10 = new System.Windows.Forms.PictureBox();
-            this.pbx20 = new System.Windows.Forms.PictureBox();
-            this.pbx30 = new System.Windows.Forms.PictureBox();
-            this.pbx109 = new System.Windows.Forms.PictureBox();
-            this.pbx119 = new System.Windows.Forms.PictureBox();
-            this.pbx79 = new System.Windows.Forms.PictureBox();
-            this.pbx89 = new System.Windows.Forms.PictureBox();
-            this.pbx99 = new System.Windows.Forms.PictureBox();
-            this.pbx69 = new System.Windows.Forms.PictureBox();
-            this.pbx59 = new System.Windows.Forms.PictureBox();
-            this.pbx49 = new System.Windows.Forms.PictureBox();
-            this.pbx39 = new System.Windows.Forms.PictureBox();
-            this.pbx9 = new System.Windows.Forms.PictureBox();
-            this.pbx19 = new System.Windows.Forms.PictureBox();
-            this.pbx29 = new System.Windows.Forms.PictureBox();
-            this.pbx108 = new System.Windows.Forms.PictureBox();
-            this.pbx118 = new System.Windows.Forms.PictureBox();
-            this.pbx78 = new System.Windows.Forms.PictureBox();
-            this.pbx88 = new System.Windows.Forms.PictureBox();
-            this.pbx98 = new System.Windows.Forms.PictureBox();
-            this.pbx68 = new System.Windows.Forms.PictureBox();
-            this.pbx58 = new System.Windows.Forms.PictureBox();
-            this.pbx48 = new System.Windows.Forms.PictureBox();
-            this.pbx38 = new System.Windows.Forms.PictureBox();
-            this.pbx8 = new System.Windows.Forms.PictureBox();
-            this.pbx18 = new System.Windows.Forms.PictureBox();
-            this.pbx28 = new System.Windows.Forms.PictureBox();
-            this.pbx107 = new System.Windows.Forms.PictureBox();
-            this.pbx117 = new System.Windows.Forms.PictureBox();
-            this.pbx77 = new System.Windows.Forms.PictureBox();
-            this.pbx87 = new System.Windows.Forms.PictureBox();
-            this.pbx97 = new System.Windows.Forms.PictureBox();
-            this.pbx67 = new System.Windows.Forms.PictureBox();
-            this.pbx57 = new System.Windows.Forms.PictureBox();
-            this.pbx47 = new System.Windows.Forms.PictureBox();
-            this.pbx37 = new System.Windows.Forms.PictureBox();
-            this.pbx7 = new System.Windows.Forms.PictureBox();
-            this.pbx17 = new System.Windows.Forms.PictureBox();
-            this.pbx27 = new System.Windows.Forms.PictureBox();
-            this.pbx106 = new System.Windows.Forms.PictureBox();
-            this.pbx116 = new System.Windows.Forms.PictureBox();
-            this.pbx76 = new System.Windows.Forms.PictureBox();
-            this.pbx86 = new System.Windows.Forms.PictureBox();
-            this.pbx96 = new System.Windows.Forms.PictureBox();
-            this.pbx66 = new System.Windows.Forms.PictureBox();
-            this.pbx56 = new System.Windows.Forms.PictureBox();
-            this.pbx46 = new System.Windows.Forms.PictureBox();
-            this.pbx36 = new System.Windows.Forms.PictureBox();
-            this.pbx6 = new System.Windows.Forms.PictureBox();
-            this.pbx16 = new System.Windows.Forms.PictureBox();
-            this.pbx26 = new System.Windows.Forms.PictureBox();
-            this.pbx105 = new System.Windows.Forms.PictureBox();
-            this.pbx115 = new System.Windows.Forms.PictureBox();
-            this.pbx75 = new System.Windows.Forms.PictureBox();
-            this.pbx85 = new System.Windows.Forms.PictureBox();
-            this.pbx95 = new System.Windows.Forms.PictureBox();
-            this.pbx65 = new System.Windows.Forms.PictureBox();
-            this.pbx55 = new System.Windows.Forms.PictureBox();
-            this.pbx45 = new System.Windows.Forms.PictureBox();
-            this.pbx35 = new System.Windows.Forms.PictureBox();
-            this.pbx5 = new System.Windows.Forms.PictureBox();
-            this.pbx15 = new System.Windows.Forms.PictureBox();
-            this.pbx25 = new System.Windows.Forms.PictureBox();
-            this.pbx104 = new System.Windows.Forms.PictureBox();
-            this.pbx114 = new System.Windows.Forms.PictureBox();
-            this.pbx74 = new System.Windows.Forms.PictureBox();
-            this.pbx84 = new System.Windows.Forms.PictureBox();
-            this.pbx94 = new System.Windows.Forms.PictureBox();
-            this.pbx64 = new System.Windows.Forms.PictureBox();
-            this.pbx54 = new System.Windows.Forms.PictureBox();
-            this.pbx44 = new System.Windows.Forms.PictureBox();
-            this.pbx34 = new System.Windows.Forms.PictureBox();
-            this.pbx4 = new System.Windows.Forms.PictureBox();
-            this.pbx14 = new System.Windows.Forms.PictureBox();
-            this.pbx24 = new System.Windows.Forms.PictureBox();
-            this.pbx103 = new System.Windows.Forms.PictureBox();
-            this.pbx113 = new System.Windows.Forms.PictureBox();
-            this.pbx73 = new System.Windows.Forms.PictureBox();
-            this.pbx83 = new System.Windows.Forms.PictureBox();
-            this.pbx93 = new System.Windows.Forms.PictureBox();
-            this.pbx63 = new System.Windows.Forms.PictureBox();
-            this.pbx53 = new System.Windows.Forms.PictureBox();
-            this.pbx43 = new System.Windows.Forms.PictureBox();
-            this.pbx33 = new System.Windows.Forms.PictureBox();
-            this.pbx3 = new System.Windows.Forms.PictureBox();
-            this.pbx13 = new System.Windows.Forms.PictureBox();
-            this.pbx23 = new System.Windows.Forms.PictureBox();
-            this.pbx102 = new System.Windows.Forms.PictureBox();
-            this.pbx112 = new System.Windows.Forms.PictureBox();
-            this.pbx72 = new System.Windows.Forms.PictureBox();
-            this.pbx82 = new System.Windows.Forms.PictureBox();
-            this.pbx92 = new System.Windows.Forms.PictureBox();
-            this.pbx62 = new System.Windows.Forms.PictureBox();
-            this.pbx52 = new System.Windows.Forms.PictureBox();
-            this.pbx42 = new System.Windows.Forms.PictureBox();
-            this.pbx32 = new System.Windows.Forms.PictureBox();
-            this.pbx2 = new System.Windows.Forms.PictureBox();
-            this.pbx12 = new System.Windows.Forms.PictureBox();
-            this.pbx22 = new System.Windows.Forms.PictureBox();
-            this.pbx101 = new System.Windows.Forms.PictureBox();
-            this.pbx111 = new System.Windows.Forms.PictureBox();
-            this.pbx71 = new System.Windows.Forms.PictureBox();
-            this.pbx81 = new System.Windows.Forms.PictureBox();
-            this.pbx91 = new System.Windows.Forms.PictureBox();
-            this.pbx61 = new System.Windows.Forms.PictureBox();
-            this.pbx51 = new System.Windows.Forms.PictureBox();
-            this.pbx41 = new System.Windows.Forms.PictureBox();
-            this.pbx31 = new System.Windows.Forms.PictureBox();
-            this.pbx1 = new System.Windows.Forms.PictureBox();
-            this.pbx11 = new System.Windows.Forms.PictureBox();
-            this.pbx21 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pbxdado2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxdado2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxDado1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxJ1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxJ2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx110)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx120)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx80)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx90)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx100)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx70)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx60)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx50)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx40)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx30)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx109)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx119)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx79)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx89)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx99)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx69)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx59)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx49)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx39)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx29)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx108)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx118)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx78)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx88)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx98)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx68)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx58)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx48)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx38)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx28)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx107)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx117)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx77)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx87)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx97)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx67)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx57)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx47)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx37)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx27)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx106)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx116)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx76)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx86)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx96)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx66)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx56)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx46)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx36)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx105)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx115)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx75)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx85)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx95)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx65)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx55)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx45)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx35)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx25)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx104)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx114)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx74)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx84)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx94)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx64)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx54)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx44)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx34)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx103)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx113)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx73)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx83)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx93)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx63)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx53)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx43)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx33)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx102)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx112)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx72)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx82)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx92)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx62)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx52)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx42)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx32)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx101)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx111)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx71)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx81)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx91)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx61)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx51)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx41)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx31)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxdado2)).BeginInit();
             this.SuspendLayout();
             // 
             // btnDado
             // 
             this.btnDado.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnDado.Location = new System.Drawing.Point(1106, 559);
+            this.btnDado.Location = new System.Drawing.Point(1098, 525);
             this.btnDado.Name = "btnDado";
             this.btnDado.Size = new System.Drawing.Size(128, 133);
             this.btnDado.TabIndex = 126;
             this.btnDado.Text = "Dice Roll";
             this.btnDado.UseVisualStyleBackColor = true;
             // 
-            // pbxDado1
-            // 
-            this.pbxDado1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbxDado1.Image = global::GUI.Properties.Resources.dado1;
-            this.pbxDado1.Location = new System.Drawing.Point(1096, 396);
-            this.pbxDado1.Name = "pbxDado1";
-            this.pbxDado1.Size = new System.Drawing.Size(138, 145);
-            this.pbxDado1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxDado1.TabIndex = 127;
-            this.pbxDado1.TabStop = false;
-            // 
-            // pbxJ1
-            // 
-            this.pbxJ1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbxJ1.Location = new System.Drawing.Point(12, 13);
-            this.pbxJ1.Name = "pbxJ1";
-            this.pbxJ1.Size = new System.Drawing.Size(137, 102);
-            this.pbxJ1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxJ1.TabIndex = 125;
-            this.pbxJ1.TabStop = false;
-            // 
-            // pbxJ2
-            // 
-            this.pbxJ2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbxJ2.Location = new System.Drawing.Point(1106, 13);
-            this.pbxJ2.Name = "pbxJ2";
-            this.pbxJ2.Size = new System.Drawing.Size(128, 102);
-            this.pbxJ2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxJ2.TabIndex = 124;
-            this.pbxJ2.TabStop = false;
-            // 
-            // pbx110
-            // 
-            this.pbx110.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx110.Image = global::GUI.Properties.Resources._110;
-            this.pbx110.Location = new System.Drawing.Point(1004, 572);
-            this.pbx110.Name = "pbx110";
-            this.pbx110.Size = new System.Drawing.Size(86, 57);
-            this.pbx110.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx110.TabIndex = 123;
-            this.pbx110.TabStop = false;
-            // 
-            // pbx120
-            // 
-            this.pbx120.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx120.Image = global::GUI.Properties.Resources._120;
-            this.pbx120.Location = new System.Drawing.Point(1008, 635);
-            this.pbx120.Name = "pbx120";
-            this.pbx120.Size = new System.Drawing.Size(86, 57);
-            this.pbx120.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx120.TabIndex = 122;
-            this.pbx120.TabStop = false;
-            // 
-            // pbx80
-            // 
-            this.pbx80.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx80.Image = global::GUI.Properties.Resources._80;
-            this.pbx80.Location = new System.Drawing.Point(1004, 398);
-            this.pbx80.Name = "pbx80";
-            this.pbx80.Size = new System.Drawing.Size(86, 48);
-            this.pbx80.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx80.TabIndex = 121;
-            this.pbx80.TabStop = false;
-            // 
-            // pbx90
-            // 
-            this.pbx90.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx90.Image = global::GUI.Properties.Resources._90;
-            this.pbx90.Location = new System.Drawing.Point(1004, 452);
-            this.pbx90.Name = "pbx90";
-            this.pbx90.Size = new System.Drawing.Size(86, 51);
-            this.pbx90.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx90.TabIndex = 120;
-            this.pbx90.TabStop = false;
-            // 
-            // pbx100
-            // 
-            this.pbx100.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx100.Image = global::GUI.Properties.Resources._100;
-            this.pbx100.Location = new System.Drawing.Point(1004, 509);
-            this.pbx100.Name = "pbx100";
-            this.pbx100.Size = new System.Drawing.Size(86, 57);
-            this.pbx100.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx100.TabIndex = 119;
-            this.pbx100.TabStop = false;
-            // 
-            // pbx70
-            // 
-            this.pbx70.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx70.Image = global::GUI.Properties.Resources._70;
-            this.pbx70.Location = new System.Drawing.Point(1004, 345);
-            this.pbx70.Name = "pbx70";
-            this.pbx70.Size = new System.Drawing.Size(86, 47);
-            this.pbx70.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx70.TabIndex = 118;
-            this.pbx70.TabStop = false;
-            // 
-            // pbx60
-            // 
-            this.pbx60.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx60.Image = global::GUI.Properties.Resources._60;
-            this.pbx60.Location = new System.Drawing.Point(1004, 283);
-            this.pbx60.Name = "pbx60";
-            this.pbx60.Size = new System.Drawing.Size(86, 48);
-            this.pbx60.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx60.TabIndex = 117;
-            this.pbx60.TabStop = false;
-            // 
-            // pbx50
-            // 
-            this.pbx50.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx50.Image = global::GUI.Properties.Resources._50;
-            this.pbx50.Location = new System.Drawing.Point(1004, 227);
-            this.pbx50.Name = "pbx50";
-            this.pbx50.Size = new System.Drawing.Size(86, 50);
-            this.pbx50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx50.TabIndex = 116;
-            this.pbx50.TabStop = false;
-            // 
-            // pbx40
-            // 
-            this.pbx40.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx40.Image = global::GUI.Properties.Resources._40;
-            this.pbx40.Location = new System.Drawing.Point(1004, 172);
-            this.pbx40.Name = "pbx40";
-            this.pbx40.Size = new System.Drawing.Size(86, 49);
-            this.pbx40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx40.TabIndex = 115;
-            this.pbx40.TabStop = false;
-            // 
-            // pbx10
-            // 
-            this.pbx10.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx10.Image = global::GUI.Properties.Resources._10;
-            this.pbx10.Location = new System.Drawing.Point(1004, 12);
-            this.pbx10.Name = "pbx10";
-            this.pbx10.Size = new System.Drawing.Size(86, 51);
-            this.pbx10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx10.TabIndex = 114;
-            this.pbx10.TabStop = false;
-            // 
-            // pbx20
-            // 
-            this.pbx20.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx20.Image = global::GUI.Properties.Resources._20;
-            this.pbx20.Location = new System.Drawing.Point(1004, 69);
-            this.pbx20.Name = "pbx20";
-            this.pbx20.Size = new System.Drawing.Size(86, 46);
-            this.pbx20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx20.TabIndex = 113;
-            this.pbx20.TabStop = false;
-            // 
-            // pbx30
-            // 
-            this.pbx30.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx30.Image = global::GUI.Properties.Resources._30;
-            this.pbx30.Location = new System.Drawing.Point(1004, 121);
-            this.pbx30.Name = "pbx30";
-            this.pbx30.Size = new System.Drawing.Size(86, 45);
-            this.pbx30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx30.TabIndex = 112;
-            this.pbx30.TabStop = false;
-            // 
-            // pbx109
-            // 
-            this.pbx109.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx109.Image = global::GUI.Properties.Resources._109;
-            this.pbx109.Location = new System.Drawing.Point(907, 572);
-            this.pbx109.Name = "pbx109";
-            this.pbx109.Size = new System.Drawing.Size(86, 57);
-            this.pbx109.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx109.TabIndex = 111;
-            this.pbx109.TabStop = false;
-            // 
-            // pbx119
-            // 
-            this.pbx119.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx119.Image = global::GUI.Properties.Resources._119;
-            this.pbx119.Location = new System.Drawing.Point(907, 635);
-            this.pbx119.Name = "pbx119";
-            this.pbx119.Size = new System.Drawing.Size(86, 57);
-            this.pbx119.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx119.TabIndex = 110;
-            this.pbx119.TabStop = false;
-            // 
-            // pbx79
-            // 
-            this.pbx79.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx79.Image = global::GUI.Properties.Resources._79;
-            this.pbx79.Location = new System.Drawing.Point(907, 398);
-            this.pbx79.Name = "pbx79";
-            this.pbx79.Size = new System.Drawing.Size(86, 48);
-            this.pbx79.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx79.TabIndex = 109;
-            this.pbx79.TabStop = false;
-            // 
-            // pbx89
-            // 
-            this.pbx89.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx89.Image = global::GUI.Properties.Resources._89;
-            this.pbx89.Location = new System.Drawing.Point(907, 452);
-            this.pbx89.Name = "pbx89";
-            this.pbx89.Size = new System.Drawing.Size(86, 51);
-            this.pbx89.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx89.TabIndex = 108;
-            this.pbx89.TabStop = false;
-            // 
-            // pbx99
-            // 
-            this.pbx99.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx99.Image = global::GUI.Properties.Resources._99;
-            this.pbx99.Location = new System.Drawing.Point(907, 509);
-            this.pbx99.Name = "pbx99";
-            this.pbx99.Size = new System.Drawing.Size(86, 57);
-            this.pbx99.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx99.TabIndex = 107;
-            this.pbx99.TabStop = false;
-            // 
-            // pbx69
-            // 
-            this.pbx69.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx69.Image = global::GUI.Properties.Resources._69;
-            this.pbx69.Location = new System.Drawing.Point(907, 345);
-            this.pbx69.Name = "pbx69";
-            this.pbx69.Size = new System.Drawing.Size(86, 47);
-            this.pbx69.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx69.TabIndex = 106;
-            this.pbx69.TabStop = false;
-            // 
-            // pbx59
-            // 
-            this.pbx59.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx59.Image = global::GUI.Properties.Resources._59;
-            this.pbx59.Location = new System.Drawing.Point(907, 283);
-            this.pbx59.Name = "pbx59";
-            this.pbx59.Size = new System.Drawing.Size(86, 48);
-            this.pbx59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx59.TabIndex = 105;
-            this.pbx59.TabStop = false;
-            // 
-            // pbx49
-            // 
-            this.pbx49.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx49.Image = global::GUI.Properties.Resources._49;
-            this.pbx49.Location = new System.Drawing.Point(907, 227);
-            this.pbx49.Name = "pbx49";
-            this.pbx49.Size = new System.Drawing.Size(86, 50);
-            this.pbx49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx49.TabIndex = 104;
-            this.pbx49.TabStop = false;
-            // 
-            // pbx39
-            // 
-            this.pbx39.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx39.Image = global::GUI.Properties.Resources._4;
-            this.pbx39.Location = new System.Drawing.Point(907, 172);
-            this.pbx39.Name = "pbx39";
-            this.pbx39.Size = new System.Drawing.Size(86, 49);
-            this.pbx39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx39.TabIndex = 103;
-            this.pbx39.TabStop = false;
-            // 
-            // pbx9
-            // 
-            this.pbx9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx9.Image = global::GUI.Properties.Resources._9;
-            this.pbx9.Location = new System.Drawing.Point(907, 12);
-            this.pbx9.Name = "pbx9";
-            this.pbx9.Size = new System.Drawing.Size(86, 51);
-            this.pbx9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx9.TabIndex = 102;
-            this.pbx9.TabStop = false;
-            // 
-            // pbx19
-            // 
-            this.pbx19.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx19.Image = global::GUI.Properties.Resources._19;
-            this.pbx19.Location = new System.Drawing.Point(907, 69);
-            this.pbx19.Name = "pbx19";
-            this.pbx19.Size = new System.Drawing.Size(86, 46);
-            this.pbx19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx19.TabIndex = 101;
-            this.pbx19.TabStop = false;
-            // 
-            // pbx29
-            // 
-            this.pbx29.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx29.Image = global::GUI.Properties.Resources._29;
-            this.pbx29.Location = new System.Drawing.Point(907, 121);
-            this.pbx29.Name = "pbx29";
-            this.pbx29.Size = new System.Drawing.Size(86, 45);
-            this.pbx29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx29.TabIndex = 100;
-            this.pbx29.TabStop = false;
-            // 
-            // pbx108
-            // 
-            this.pbx108.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx108.Image = global::GUI.Properties.Resources._108;
-            this.pbx108.Location = new System.Drawing.Point(815, 572);
-            this.pbx108.Name = "pbx108";
-            this.pbx108.Size = new System.Drawing.Size(86, 57);
-            this.pbx108.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx108.TabIndex = 99;
-            this.pbx108.TabStop = false;
-            // 
-            // pbx118
-            // 
-            this.pbx118.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx118.Image = global::GUI.Properties.Resources._118;
-            this.pbx118.Location = new System.Drawing.Point(815, 635);
-            this.pbx118.Name = "pbx118";
-            this.pbx118.Size = new System.Drawing.Size(86, 57);
-            this.pbx118.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx118.TabIndex = 98;
-            this.pbx118.TabStop = false;
-            // 
-            // pbx78
-            // 
-            this.pbx78.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx78.Image = global::GUI.Properties.Resources._78;
-            this.pbx78.Location = new System.Drawing.Point(815, 398);
-            this.pbx78.Name = "pbx78";
-            this.pbx78.Size = new System.Drawing.Size(86, 48);
-            this.pbx78.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx78.TabIndex = 97;
-            this.pbx78.TabStop = false;
-            // 
-            // pbx88
-            // 
-            this.pbx88.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx88.Image = global::GUI.Properties.Resources._88;
-            this.pbx88.Location = new System.Drawing.Point(815, 452);
-            this.pbx88.Name = "pbx88";
-            this.pbx88.Size = new System.Drawing.Size(86, 51);
-            this.pbx88.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx88.TabIndex = 96;
-            this.pbx88.TabStop = false;
-            // 
-            // pbx98
-            // 
-            this.pbx98.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx98.Image = global::GUI.Properties.Resources._98;
-            this.pbx98.Location = new System.Drawing.Point(815, 509);
-            this.pbx98.Name = "pbx98";
-            this.pbx98.Size = new System.Drawing.Size(86, 57);
-            this.pbx98.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx98.TabIndex = 95;
-            this.pbx98.TabStop = false;
-            // 
-            // pbx68
-            // 
-            this.pbx68.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx68.Image = global::GUI.Properties.Resources._68;
-            this.pbx68.Location = new System.Drawing.Point(815, 345);
-            this.pbx68.Name = "pbx68";
-            this.pbx68.Size = new System.Drawing.Size(86, 47);
-            this.pbx68.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx68.TabIndex = 94;
-            this.pbx68.TabStop = false;
-            // 
-            // pbx58
-            // 
-            this.pbx58.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx58.Image = global::GUI.Properties.Resources._58;
-            this.pbx58.Location = new System.Drawing.Point(815, 283);
-            this.pbx58.Name = "pbx58";
-            this.pbx58.Size = new System.Drawing.Size(86, 48);
-            this.pbx58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx58.TabIndex = 93;
-            this.pbx58.TabStop = false;
-            // 
-            // pbx48
-            // 
-            this.pbx48.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx48.Image = global::GUI.Properties.Resources._48;
-            this.pbx48.Location = new System.Drawing.Point(815, 227);
-            this.pbx48.Name = "pbx48";
-            this.pbx48.Size = new System.Drawing.Size(86, 50);
-            this.pbx48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx48.TabIndex = 92;
-            this.pbx48.TabStop = false;
-            // 
-            // pbx38
-            // 
-            this.pbx38.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx38.Image = global::GUI.Properties.Resources._38;
-            this.pbx38.Location = new System.Drawing.Point(815, 172);
-            this.pbx38.Name = "pbx38";
-            this.pbx38.Size = new System.Drawing.Size(86, 49);
-            this.pbx38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx38.TabIndex = 91;
-            this.pbx38.TabStop = false;
-            // 
-            // pbx8
-            // 
-            this.pbx8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx8.Image = global::GUI.Properties.Resources._8;
-            this.pbx8.Location = new System.Drawing.Point(815, 12);
-            this.pbx8.Name = "pbx8";
-            this.pbx8.Size = new System.Drawing.Size(86, 51);
-            this.pbx8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx8.TabIndex = 90;
-            this.pbx8.TabStop = false;
-            // 
-            // pbx18
-            // 
-            this.pbx18.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx18.Image = global::GUI.Properties.Resources._18;
-            this.pbx18.Location = new System.Drawing.Point(815, 69);
-            this.pbx18.Name = "pbx18";
-            this.pbx18.Size = new System.Drawing.Size(86, 46);
-            this.pbx18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx18.TabIndex = 89;
-            this.pbx18.TabStop = false;
-            // 
-            // pbx28
-            // 
-            this.pbx28.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx28.Image = global::GUI.Properties.Resources._28;
-            this.pbx28.Location = new System.Drawing.Point(815, 121);
-            this.pbx28.Name = "pbx28";
-            this.pbx28.Size = new System.Drawing.Size(86, 45);
-            this.pbx28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx28.TabIndex = 88;
-            this.pbx28.TabStop = false;
-            // 
-            // pbx107
-            // 
-            this.pbx107.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx107.Image = global::GUI.Properties.Resources._107;
-            this.pbx107.Location = new System.Drawing.Point(723, 572);
-            this.pbx107.Name = "pbx107";
-            this.pbx107.Size = new System.Drawing.Size(86, 57);
-            this.pbx107.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx107.TabIndex = 87;
-            this.pbx107.TabStop = false;
-            // 
-            // pbx117
-            // 
-            this.pbx117.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx117.Image = global::GUI.Properties.Resources._117;
-            this.pbx117.Location = new System.Drawing.Point(723, 635);
-            this.pbx117.Name = "pbx117";
-            this.pbx117.Size = new System.Drawing.Size(86, 57);
-            this.pbx117.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx117.TabIndex = 86;
-            this.pbx117.TabStop = false;
-            // 
-            // pbx77
-            // 
-            this.pbx77.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx77.Image = global::GUI.Properties.Resources._77;
-            this.pbx77.Location = new System.Drawing.Point(723, 398);
-            this.pbx77.Name = "pbx77";
-            this.pbx77.Size = new System.Drawing.Size(86, 48);
-            this.pbx77.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx77.TabIndex = 85;
-            this.pbx77.TabStop = false;
-            // 
-            // pbx87
-            // 
-            this.pbx87.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx87.Image = global::GUI.Properties.Resources._87;
-            this.pbx87.Location = new System.Drawing.Point(723, 452);
-            this.pbx87.Name = "pbx87";
-            this.pbx87.Size = new System.Drawing.Size(86, 51);
-            this.pbx87.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx87.TabIndex = 84;
-            this.pbx87.TabStop = false;
-            // 
-            // pbx97
-            // 
-            this.pbx97.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx97.Image = global::GUI.Properties.Resources._97;
-            this.pbx97.Location = new System.Drawing.Point(723, 509);
-            this.pbx97.Name = "pbx97";
-            this.pbx97.Size = new System.Drawing.Size(86, 57);
-            this.pbx97.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx97.TabIndex = 83;
-            this.pbx97.TabStop = false;
-            // 
-            // pbx67
-            // 
-            this.pbx67.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx67.Image = global::GUI.Properties.Resources._67;
-            this.pbx67.Location = new System.Drawing.Point(723, 345);
-            this.pbx67.Name = "pbx67";
-            this.pbx67.Size = new System.Drawing.Size(86, 47);
-            this.pbx67.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx67.TabIndex = 82;
-            this.pbx67.TabStop = false;
-            // 
-            // pbx57
-            // 
-            this.pbx57.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx57.Image = global::GUI.Properties.Resources._57;
-            this.pbx57.Location = new System.Drawing.Point(723, 283);
-            this.pbx57.Name = "pbx57";
-            this.pbx57.Size = new System.Drawing.Size(86, 48);
-            this.pbx57.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx57.TabIndex = 81;
-            this.pbx57.TabStop = false;
-            // 
-            // pbx47
-            // 
-            this.pbx47.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx47.Image = global::GUI.Properties.Resources._47;
-            this.pbx47.Location = new System.Drawing.Point(723, 227);
-            this.pbx47.Name = "pbx47";
-            this.pbx47.Size = new System.Drawing.Size(86, 50);
-            this.pbx47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx47.TabIndex = 80;
-            this.pbx47.TabStop = false;
-            // 
-            // pbx37
-            // 
-            this.pbx37.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx37.Image = global::GUI.Properties.Resources._37;
-            this.pbx37.Location = new System.Drawing.Point(723, 172);
-            this.pbx37.Name = "pbx37";
-            this.pbx37.Size = new System.Drawing.Size(86, 49);
-            this.pbx37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx37.TabIndex = 79;
-            this.pbx37.TabStop = false;
-            // 
-            // pbx7
-            // 
-            this.pbx7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx7.Image = global::GUI.Properties.Resources._7;
-            this.pbx7.Location = new System.Drawing.Point(723, 12);
-            this.pbx7.Name = "pbx7";
-            this.pbx7.Size = new System.Drawing.Size(86, 51);
-            this.pbx7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx7.TabIndex = 78;
-            this.pbx7.TabStop = false;
-            // 
-            // pbx17
-            // 
-            this.pbx17.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx17.Image = global::GUI.Properties.Resources._17;
-            this.pbx17.Location = new System.Drawing.Point(723, 69);
-            this.pbx17.Name = "pbx17";
-            this.pbx17.Size = new System.Drawing.Size(86, 46);
-            this.pbx17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx17.TabIndex = 77;
-            this.pbx17.TabStop = false;
-            // 
-            // pbx27
-            // 
-            this.pbx27.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx27.Image = global::GUI.Properties.Resources._27;
-            this.pbx27.Location = new System.Drawing.Point(723, 121);
-            this.pbx27.Name = "pbx27";
-            this.pbx27.Size = new System.Drawing.Size(86, 45);
-            this.pbx27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx27.TabIndex = 76;
-            this.pbx27.TabStop = false;
-            // 
-            // pbx106
-            // 
-            this.pbx106.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx106.Image = global::GUI.Properties.Resources._106;
-            this.pbx106.Location = new System.Drawing.Point(631, 572);
-            this.pbx106.Name = "pbx106";
-            this.pbx106.Size = new System.Drawing.Size(86, 57);
-            this.pbx106.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx106.TabIndex = 75;
-            this.pbx106.TabStop = false;
-            // 
-            // pbx116
-            // 
-            this.pbx116.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx116.Image = global::GUI.Properties.Resources._116;
-            this.pbx116.Location = new System.Drawing.Point(631, 635);
-            this.pbx116.Name = "pbx116";
-            this.pbx116.Size = new System.Drawing.Size(86, 57);
-            this.pbx116.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx116.TabIndex = 74;
-            this.pbx116.TabStop = false;
-            // 
-            // pbx76
-            // 
-            this.pbx76.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx76.Image = global::GUI.Properties.Resources._76;
-            this.pbx76.Location = new System.Drawing.Point(631, 398);
-            this.pbx76.Name = "pbx76";
-            this.pbx76.Size = new System.Drawing.Size(86, 48);
-            this.pbx76.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx76.TabIndex = 73;
-            this.pbx76.TabStop = false;
-            // 
-            // pbx86
-            // 
-            this.pbx86.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx86.Image = global::GUI.Properties.Resources._86;
-            this.pbx86.Location = new System.Drawing.Point(631, 452);
-            this.pbx86.Name = "pbx86";
-            this.pbx86.Size = new System.Drawing.Size(86, 51);
-            this.pbx86.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx86.TabIndex = 72;
-            this.pbx86.TabStop = false;
-            // 
-            // pbx96
-            // 
-            this.pbx96.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx96.Image = global::GUI.Properties.Resources._96;
-            this.pbx96.Location = new System.Drawing.Point(631, 509);
-            this.pbx96.Name = "pbx96";
-            this.pbx96.Size = new System.Drawing.Size(86, 57);
-            this.pbx96.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx96.TabIndex = 71;
-            this.pbx96.TabStop = false;
-            // 
-            // pbx66
-            // 
-            this.pbx66.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx66.Image = global::GUI.Properties.Resources._66;
-            this.pbx66.Location = new System.Drawing.Point(631, 345);
-            this.pbx66.Name = "pbx66";
-            this.pbx66.Size = new System.Drawing.Size(86, 47);
-            this.pbx66.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx66.TabIndex = 70;
-            this.pbx66.TabStop = false;
-            // 
-            // pbx56
-            // 
-            this.pbx56.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx56.Image = global::GUI.Properties.Resources._56;
-            this.pbx56.Location = new System.Drawing.Point(631, 283);
-            this.pbx56.Name = "pbx56";
-            this.pbx56.Size = new System.Drawing.Size(86, 48);
-            this.pbx56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx56.TabIndex = 69;
-            this.pbx56.TabStop = false;
-            // 
-            // pbx46
-            // 
-            this.pbx46.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx46.Image = global::GUI.Properties.Resources._46;
-            this.pbx46.Location = new System.Drawing.Point(631, 227);
-            this.pbx46.Name = "pbx46";
-            this.pbx46.Size = new System.Drawing.Size(86, 50);
-            this.pbx46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx46.TabIndex = 68;
-            this.pbx46.TabStop = false;
-            // 
-            // pbx36
-            // 
-            this.pbx36.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx36.Image = global::GUI.Properties.Resources._36;
-            this.pbx36.Location = new System.Drawing.Point(631, 172);
-            this.pbx36.Name = "pbx36";
-            this.pbx36.Size = new System.Drawing.Size(86, 49);
-            this.pbx36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx36.TabIndex = 67;
-            this.pbx36.TabStop = false;
-            // 
-            // pbx6
-            // 
-            this.pbx6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx6.Image = global::GUI.Properties.Resources._6;
-            this.pbx6.Location = new System.Drawing.Point(631, 12);
-            this.pbx6.Name = "pbx6";
-            this.pbx6.Size = new System.Drawing.Size(86, 51);
-            this.pbx6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx6.TabIndex = 66;
-            this.pbx6.TabStop = false;
-            // 
-            // pbx16
-            // 
-            this.pbx16.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx16.Image = global::GUI.Properties.Resources._16;
-            this.pbx16.Location = new System.Drawing.Point(631, 69);
-            this.pbx16.Name = "pbx16";
-            this.pbx16.Size = new System.Drawing.Size(86, 46);
-            this.pbx16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx16.TabIndex = 65;
-            this.pbx16.TabStop = false;
-            // 
-            // pbx26
-            // 
-            this.pbx26.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx26.Image = global::GUI.Properties.Resources._26;
-            this.pbx26.Location = new System.Drawing.Point(631, 121);
-            this.pbx26.Name = "pbx26";
-            this.pbx26.Size = new System.Drawing.Size(86, 45);
-            this.pbx26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx26.TabIndex = 64;
-            this.pbx26.TabStop = false;
-            // 
-            // pbx105
-            // 
-            this.pbx105.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx105.Image = global::GUI.Properties.Resources._105;
-            this.pbx105.Location = new System.Drawing.Point(539, 572);
-            this.pbx105.Name = "pbx105";
-            this.pbx105.Size = new System.Drawing.Size(86, 57);
-            this.pbx105.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx105.TabIndex = 63;
-            this.pbx105.TabStop = false;
-            // 
-            // pbx115
-            // 
-            this.pbx115.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx115.Image = global::GUI.Properties.Resources._115;
-            this.pbx115.Location = new System.Drawing.Point(539, 635);
-            this.pbx115.Name = "pbx115";
-            this.pbx115.Size = new System.Drawing.Size(86, 57);
-            this.pbx115.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx115.TabIndex = 62;
-            this.pbx115.TabStop = false;
-            // 
-            // pbx75
-            // 
-            this.pbx75.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx75.Image = global::GUI.Properties.Resources._75;
-            this.pbx75.Location = new System.Drawing.Point(539, 398);
-            this.pbx75.Name = "pbx75";
-            this.pbx75.Size = new System.Drawing.Size(86, 48);
-            this.pbx75.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx75.TabIndex = 61;
-            this.pbx75.TabStop = false;
-            // 
-            // pbx85
-            // 
-            this.pbx85.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx85.Image = global::GUI.Properties.Resources._85;
-            this.pbx85.Location = new System.Drawing.Point(539, 452);
-            this.pbx85.Name = "pbx85";
-            this.pbx85.Size = new System.Drawing.Size(86, 51);
-            this.pbx85.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx85.TabIndex = 60;
-            this.pbx85.TabStop = false;
-            // 
-            // pbx95
-            // 
-            this.pbx95.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx95.Image = global::GUI.Properties.Resources._95;
-            this.pbx95.Location = new System.Drawing.Point(539, 509);
-            this.pbx95.Name = "pbx95";
-            this.pbx95.Size = new System.Drawing.Size(86, 57);
-            this.pbx95.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx95.TabIndex = 59;
-            this.pbx95.TabStop = false;
-            // 
-            // pbx65
-            // 
-            this.pbx65.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx65.Image = global::GUI.Properties.Resources._65;
-            this.pbx65.Location = new System.Drawing.Point(539, 345);
-            this.pbx65.Name = "pbx65";
-            this.pbx65.Size = new System.Drawing.Size(86, 47);
-            this.pbx65.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx65.TabIndex = 58;
-            this.pbx65.TabStop = false;
-            // 
-            // pbx55
-            // 
-            this.pbx55.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx55.Image = global::GUI.Properties.Resources._55;
-            this.pbx55.Location = new System.Drawing.Point(539, 283);
-            this.pbx55.Name = "pbx55";
-            this.pbx55.Size = new System.Drawing.Size(86, 48);
-            this.pbx55.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx55.TabIndex = 57;
-            this.pbx55.TabStop = false;
-            // 
-            // pbx45
-            // 
-            this.pbx45.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx45.Image = global::GUI.Properties.Resources._45;
-            this.pbx45.Location = new System.Drawing.Point(539, 227);
-            this.pbx45.Name = "pbx45";
-            this.pbx45.Size = new System.Drawing.Size(86, 50);
-            this.pbx45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx45.TabIndex = 56;
-            this.pbx45.TabStop = false;
-            // 
-            // pbx35
-            // 
-            this.pbx35.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx35.Image = global::GUI.Properties.Resources._35;
-            this.pbx35.Location = new System.Drawing.Point(539, 172);
-            this.pbx35.Name = "pbx35";
-            this.pbx35.Size = new System.Drawing.Size(86, 49);
-            this.pbx35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx35.TabIndex = 55;
-            this.pbx35.TabStop = false;
-            // 
-            // pbx5
-            // 
-            this.pbx5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx5.Image = global::GUI.Properties.Resources._5;
-            this.pbx5.Location = new System.Drawing.Point(539, 12);
-            this.pbx5.Name = "pbx5";
-            this.pbx5.Size = new System.Drawing.Size(86, 51);
-            this.pbx5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx5.TabIndex = 54;
-            this.pbx5.TabStop = false;
-            // 
-            // pbx15
-            // 
-            this.pbx15.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx15.Image = global::GUI.Properties.Resources._15;
-            this.pbx15.Location = new System.Drawing.Point(539, 69);
-            this.pbx15.Name = "pbx15";
-            this.pbx15.Size = new System.Drawing.Size(86, 46);
-            this.pbx15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx15.TabIndex = 53;
-            this.pbx15.TabStop = false;
-            // 
-            // pbx25
-            // 
-            this.pbx25.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx25.Image = global::GUI.Properties.Resources._25;
-            this.pbx25.Location = new System.Drawing.Point(539, 121);
-            this.pbx25.Name = "pbx25";
-            this.pbx25.Size = new System.Drawing.Size(86, 45);
-            this.pbx25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx25.TabIndex = 52;
-            this.pbx25.TabStop = false;
-            // 
-            // pbx104
-            // 
-            this.pbx104.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx104.Image = global::GUI.Properties.Resources._104;
-            this.pbx104.Location = new System.Drawing.Point(447, 572);
-            this.pbx104.Name = "pbx104";
-            this.pbx104.Size = new System.Drawing.Size(86, 57);
-            this.pbx104.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx104.TabIndex = 51;
-            this.pbx104.TabStop = false;
-            // 
-            // pbx114
-            // 
-            this.pbx114.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx114.Image = global::GUI.Properties.Resources._114;
-            this.pbx114.Location = new System.Drawing.Point(447, 635);
-            this.pbx114.Name = "pbx114";
-            this.pbx114.Size = new System.Drawing.Size(86, 57);
-            this.pbx114.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx114.TabIndex = 50;
-            this.pbx114.TabStop = false;
-            // 
-            // pbx74
-            // 
-            this.pbx74.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx74.Image = global::GUI.Properties.Resources._74;
-            this.pbx74.Location = new System.Drawing.Point(447, 398);
-            this.pbx74.Name = "pbx74";
-            this.pbx74.Size = new System.Drawing.Size(86, 48);
-            this.pbx74.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx74.TabIndex = 49;
-            this.pbx74.TabStop = false;
-            // 
-            // pbx84
-            // 
-            this.pbx84.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx84.Image = global::GUI.Properties.Resources._84;
-            this.pbx84.Location = new System.Drawing.Point(447, 452);
-            this.pbx84.Name = "pbx84";
-            this.pbx84.Size = new System.Drawing.Size(86, 51);
-            this.pbx84.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx84.TabIndex = 48;
-            this.pbx84.TabStop = false;
-            // 
-            // pbx94
-            // 
-            this.pbx94.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx94.Image = global::GUI.Properties.Resources._94;
-            this.pbx94.Location = new System.Drawing.Point(447, 509);
-            this.pbx94.Name = "pbx94";
-            this.pbx94.Size = new System.Drawing.Size(86, 57);
-            this.pbx94.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx94.TabIndex = 47;
-            this.pbx94.TabStop = false;
-            // 
-            // pbx64
-            // 
-            this.pbx64.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx64.Image = global::GUI.Properties.Resources._64;
-            this.pbx64.Location = new System.Drawing.Point(447, 345);
-            this.pbx64.Name = "pbx64";
-            this.pbx64.Size = new System.Drawing.Size(86, 47);
-            this.pbx64.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx64.TabIndex = 46;
-            this.pbx64.TabStop = false;
-            // 
-            // pbx54
-            // 
-            this.pbx54.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx54.Image = global::GUI.Properties.Resources._54;
-            this.pbx54.Location = new System.Drawing.Point(447, 283);
-            this.pbx54.Name = "pbx54";
-            this.pbx54.Size = new System.Drawing.Size(86, 48);
-            this.pbx54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx54.TabIndex = 45;
-            this.pbx54.TabStop = false;
-            // 
-            // pbx44
-            // 
-            this.pbx44.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx44.Image = global::GUI.Properties.Resources._44;
-            this.pbx44.Location = new System.Drawing.Point(447, 227);
-            this.pbx44.Name = "pbx44";
-            this.pbx44.Size = new System.Drawing.Size(86, 50);
-            this.pbx44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx44.TabIndex = 44;
-            this.pbx44.TabStop = false;
-            // 
-            // pbx34
-            // 
-            this.pbx34.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx34.Image = global::GUI.Properties.Resources._34;
-            this.pbx34.Location = new System.Drawing.Point(447, 172);
-            this.pbx34.Name = "pbx34";
-            this.pbx34.Size = new System.Drawing.Size(86, 49);
-            this.pbx34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx34.TabIndex = 43;
-            this.pbx34.TabStop = false;
-            // 
-            // pbx4
-            // 
-            this.pbx4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx4.Image = global::GUI.Properties.Resources._4;
-            this.pbx4.Location = new System.Drawing.Point(443, 12);
-            this.pbx4.Name = "pbx4";
-            this.pbx4.Size = new System.Drawing.Size(86, 51);
-            this.pbx4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx4.TabIndex = 42;
-            this.pbx4.TabStop = false;
-            // 
-            // pbx14
-            // 
-            this.pbx14.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx14.Image = global::GUI.Properties.Resources._14;
-            this.pbx14.Location = new System.Drawing.Point(447, 69);
-            this.pbx14.Name = "pbx14";
-            this.pbx14.Size = new System.Drawing.Size(86, 46);
-            this.pbx14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx14.TabIndex = 41;
-            this.pbx14.TabStop = false;
-            // 
-            // pbx24
-            // 
-            this.pbx24.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx24.Image = global::GUI.Properties.Resources._24;
-            this.pbx24.Location = new System.Drawing.Point(447, 121);
-            this.pbx24.Name = "pbx24";
-            this.pbx24.Size = new System.Drawing.Size(86, 45);
-            this.pbx24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx24.TabIndex = 40;
-            this.pbx24.TabStop = false;
-            // 
-            // pbx103
-            // 
-            this.pbx103.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx103.Image = global::GUI.Properties.Resources._103;
-            this.pbx103.Location = new System.Drawing.Point(355, 572);
-            this.pbx103.Name = "pbx103";
-            this.pbx103.Size = new System.Drawing.Size(86, 57);
-            this.pbx103.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx103.TabIndex = 39;
-            this.pbx103.TabStop = false;
-            // 
-            // pbx113
-            // 
-            this.pbx113.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx113.Image = global::GUI.Properties.Resources._113;
-            this.pbx113.Location = new System.Drawing.Point(355, 635);
-            this.pbx113.Name = "pbx113";
-            this.pbx113.Size = new System.Drawing.Size(86, 57);
-            this.pbx113.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx113.TabIndex = 38;
-            this.pbx113.TabStop = false;
-            // 
-            // pbx73
-            // 
-            this.pbx73.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx73.Image = global::GUI.Properties.Resources._73;
-            this.pbx73.Location = new System.Drawing.Point(355, 398);
-            this.pbx73.Name = "pbx73";
-            this.pbx73.Size = new System.Drawing.Size(86, 48);
-            this.pbx73.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx73.TabIndex = 37;
-            this.pbx73.TabStop = false;
-            // 
-            // pbx83
-            // 
-            this.pbx83.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx83.Image = global::GUI.Properties.Resources._83;
-            this.pbx83.Location = new System.Drawing.Point(355, 452);
-            this.pbx83.Name = "pbx83";
-            this.pbx83.Size = new System.Drawing.Size(86, 51);
-            this.pbx83.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx83.TabIndex = 36;
-            this.pbx83.TabStop = false;
-            // 
-            // pbx93
-            // 
-            this.pbx93.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx93.Image = global::GUI.Properties.Resources._93;
-            this.pbx93.Location = new System.Drawing.Point(355, 509);
-            this.pbx93.Name = "pbx93";
-            this.pbx93.Size = new System.Drawing.Size(86, 57);
-            this.pbx93.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx93.TabIndex = 35;
-            this.pbx93.TabStop = false;
-            // 
-            // pbx63
-            // 
-            this.pbx63.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx63.Image = global::GUI.Properties.Resources._63;
-            this.pbx63.Location = new System.Drawing.Point(355, 345);
-            this.pbx63.Name = "pbx63";
-            this.pbx63.Size = new System.Drawing.Size(86, 47);
-            this.pbx63.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx63.TabIndex = 34;
-            this.pbx63.TabStop = false;
-            // 
-            // pbx53
-            // 
-            this.pbx53.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx53.Image = global::GUI.Properties.Resources._53;
-            this.pbx53.Location = new System.Drawing.Point(355, 283);
-            this.pbx53.Name = "pbx53";
-            this.pbx53.Size = new System.Drawing.Size(86, 48);
-            this.pbx53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx53.TabIndex = 33;
-            this.pbx53.TabStop = false;
-            // 
-            // pbx43
-            // 
-            this.pbx43.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx43.Image = global::GUI.Properties.Resources._43;
-            this.pbx43.Location = new System.Drawing.Point(355, 227);
-            this.pbx43.Name = "pbx43";
-            this.pbx43.Size = new System.Drawing.Size(86, 50);
-            this.pbx43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx43.TabIndex = 32;
-            this.pbx43.TabStop = false;
-            // 
-            // pbx33
-            // 
-            this.pbx33.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx33.Image = global::GUI.Properties.Resources._33;
-            this.pbx33.Location = new System.Drawing.Point(355, 172);
-            this.pbx33.Name = "pbx33";
-            this.pbx33.Size = new System.Drawing.Size(86, 49);
-            this.pbx33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx33.TabIndex = 31;
-            this.pbx33.TabStop = false;
-            // 
-            // pbx3
-            // 
-            this.pbx3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx3.Image = global::GUI.Properties.Resources._3;
-            this.pbx3.Location = new System.Drawing.Point(355, 12);
-            this.pbx3.Name = "pbx3";
-            this.pbx3.Size = new System.Drawing.Size(86, 51);
-            this.pbx3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx3.TabIndex = 30;
-            this.pbx3.TabStop = false;
-            // 
-            // pbx13
-            // 
-            this.pbx13.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx13.Image = global::GUI.Properties.Resources._13;
-            this.pbx13.Location = new System.Drawing.Point(355, 69);
-            this.pbx13.Name = "pbx13";
-            this.pbx13.Size = new System.Drawing.Size(86, 46);
-            this.pbx13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx13.TabIndex = 29;
-            this.pbx13.TabStop = false;
-            // 
-            // pbx23
-            // 
-            this.pbx23.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx23.Image = global::GUI.Properties.Resources._23;
-            this.pbx23.Location = new System.Drawing.Point(355, 121);
-            this.pbx23.Name = "pbx23";
-            this.pbx23.Size = new System.Drawing.Size(86, 45);
-            this.pbx23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx23.TabIndex = 28;
-            this.pbx23.TabStop = false;
-            // 
-            // pbx102
-            // 
-            this.pbx102.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx102.Image = global::GUI.Properties.Resources._102;
-            this.pbx102.Location = new System.Drawing.Point(263, 572);
-            this.pbx102.Name = "pbx102";
-            this.pbx102.Size = new System.Drawing.Size(86, 57);
-            this.pbx102.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx102.TabIndex = 27;
-            this.pbx102.TabStop = false;
-            // 
-            // pbx112
-            // 
-            this.pbx112.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx112.Image = global::GUI.Properties.Resources._112;
-            this.pbx112.Location = new System.Drawing.Point(263, 635);
-            this.pbx112.Name = "pbx112";
-            this.pbx112.Size = new System.Drawing.Size(86, 57);
-            this.pbx112.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx112.TabIndex = 26;
-            this.pbx112.TabStop = false;
-            // 
-            // pbx72
-            // 
-            this.pbx72.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx72.Image = global::GUI.Properties.Resources._72;
-            this.pbx72.Location = new System.Drawing.Point(263, 398);
-            this.pbx72.Name = "pbx72";
-            this.pbx72.Size = new System.Drawing.Size(86, 48);
-            this.pbx72.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx72.TabIndex = 25;
-            this.pbx72.TabStop = false;
-            // 
-            // pbx82
-            // 
-            this.pbx82.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx82.Image = global::GUI.Properties.Resources._82;
-            this.pbx82.Location = new System.Drawing.Point(263, 452);
-            this.pbx82.Name = "pbx82";
-            this.pbx82.Size = new System.Drawing.Size(86, 51);
-            this.pbx82.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx82.TabIndex = 24;
-            this.pbx82.TabStop = false;
-            // 
-            // pbx92
-            // 
-            this.pbx92.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx92.Image = global::GUI.Properties.Resources._92;
-            this.pbx92.Location = new System.Drawing.Point(263, 509);
-            this.pbx92.Name = "pbx92";
-            this.pbx92.Size = new System.Drawing.Size(86, 57);
-            this.pbx92.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx92.TabIndex = 23;
-            this.pbx92.TabStop = false;
-            // 
-            // pbx62
-            // 
-            this.pbx62.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx62.Image = global::GUI.Properties.Resources._62;
-            this.pbx62.Location = new System.Drawing.Point(263, 345);
-            this.pbx62.Name = "pbx62";
-            this.pbx62.Size = new System.Drawing.Size(86, 47);
-            this.pbx62.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx62.TabIndex = 22;
-            this.pbx62.TabStop = false;
-            // 
-            // pbx52
-            // 
-            this.pbx52.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx52.Image = global::GUI.Properties.Resources._52;
-            this.pbx52.Location = new System.Drawing.Point(263, 283);
-            this.pbx52.Name = "pbx52";
-            this.pbx52.Size = new System.Drawing.Size(86, 48);
-            this.pbx52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx52.TabIndex = 21;
-            this.pbx52.TabStop = false;
-            // 
-            // pbx42
-            // 
-            this.pbx42.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx42.Image = global::GUI.Properties.Resources._42;
-            this.pbx42.Location = new System.Drawing.Point(263, 227);
-            this.pbx42.Name = "pbx42";
-            this.pbx42.Size = new System.Drawing.Size(86, 50);
-            this.pbx42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx42.TabIndex = 20;
-            this.pbx42.TabStop = false;
-            // 
-            // pbx32
-            // 
-            this.pbx32.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx32.Image = global::GUI.Properties.Resources._32;
-            this.pbx32.Location = new System.Drawing.Point(263, 172);
-            this.pbx32.Name = "pbx32";
-            this.pbx32.Size = new System.Drawing.Size(86, 49);
-            this.pbx32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx32.TabIndex = 19;
-            this.pbx32.TabStop = false;
-            // 
-            // pbx2
-            // 
-            this.pbx2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx2.Image = global::GUI.Properties.Resources._2;
-            this.pbx2.Location = new System.Drawing.Point(263, 12);
-            this.pbx2.Name = "pbx2";
-            this.pbx2.Size = new System.Drawing.Size(86, 51);
-            this.pbx2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx2.TabIndex = 18;
-            this.pbx2.TabStop = false;
-            // 
-            // pbx12
-            // 
-            this.pbx12.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx12.Image = global::GUI.Properties.Resources._12;
-            this.pbx12.Location = new System.Drawing.Point(263, 69);
-            this.pbx12.Name = "pbx12";
-            this.pbx12.Size = new System.Drawing.Size(86, 46);
-            this.pbx12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx12.TabIndex = 17;
-            this.pbx12.TabStop = false;
-            // 
-            // pbx22
-            // 
-            this.pbx22.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx22.Image = global::GUI.Properties.Resources._22;
-            this.pbx22.Location = new System.Drawing.Point(263, 121);
-            this.pbx22.Name = "pbx22";
-            this.pbx22.Size = new System.Drawing.Size(86, 45);
-            this.pbx22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx22.TabIndex = 16;
-            this.pbx22.TabStop = false;
-            // 
-            // pbx101
-            // 
-            this.pbx101.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx101.Image = global::GUI.Properties.Resources._101;
-            this.pbx101.Location = new System.Drawing.Point(171, 572);
-            this.pbx101.Name = "pbx101";
-            this.pbx101.Size = new System.Drawing.Size(86, 57);
-            this.pbx101.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx101.TabIndex = 15;
-            this.pbx101.TabStop = false;
-            // 
-            // pbx111
-            // 
-            this.pbx111.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx111.Image = global::GUI.Properties.Resources._111;
-            this.pbx111.Location = new System.Drawing.Point(171, 635);
-            this.pbx111.Name = "pbx111";
-            this.pbx111.Size = new System.Drawing.Size(86, 57);
-            this.pbx111.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx111.TabIndex = 14;
-            this.pbx111.TabStop = false;
-            // 
-            // pbx71
-            // 
-            this.pbx71.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx71.Image = global::GUI.Properties.Resources._71;
-            this.pbx71.Location = new System.Drawing.Point(171, 398);
-            this.pbx71.Name = "pbx71";
-            this.pbx71.Size = new System.Drawing.Size(86, 48);
-            this.pbx71.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx71.TabIndex = 11;
-            this.pbx71.TabStop = false;
-            // 
-            // pbx81
-            // 
-            this.pbx81.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx81.Image = global::GUI.Properties.Resources._81;
-            this.pbx81.Location = new System.Drawing.Point(171, 452);
-            this.pbx81.Name = "pbx81";
-            this.pbx81.Size = new System.Drawing.Size(86, 51);
-            this.pbx81.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx81.TabIndex = 10;
-            this.pbx81.TabStop = false;
-            // 
-            // pbx91
-            // 
-            this.pbx91.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx91.Image = global::GUI.Properties.Resources._91;
-            this.pbx91.Location = new System.Drawing.Point(171, 509);
-            this.pbx91.Name = "pbx91";
-            this.pbx91.Size = new System.Drawing.Size(86, 57);
-            this.pbx91.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx91.TabIndex = 9;
-            this.pbx91.TabStop = false;
-            // 
-            // pbx61
-            // 
-            this.pbx61.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx61.Image = global::GUI.Properties.Resources._61;
-            this.pbx61.Location = new System.Drawing.Point(171, 345);
-            this.pbx61.Name = "pbx61";
-            this.pbx61.Size = new System.Drawing.Size(86, 47);
-            this.pbx61.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx61.TabIndex = 8;
-            this.pbx61.TabStop = false;
-            // 
-            // pbx51
-            // 
-            this.pbx51.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx51.Image = global::GUI.Properties.Resources._51;
-            this.pbx51.Location = new System.Drawing.Point(171, 283);
-            this.pbx51.Name = "pbx51";
-            this.pbx51.Size = new System.Drawing.Size(86, 48);
-            this.pbx51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx51.TabIndex = 7;
-            this.pbx51.TabStop = false;
-            // 
-            // pbx41
-            // 
-            this.pbx41.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx41.Image = global::GUI.Properties.Resources._41;
-            this.pbx41.Location = new System.Drawing.Point(171, 227);
-            this.pbx41.Name = "pbx41";
-            this.pbx41.Size = new System.Drawing.Size(86, 50);
-            this.pbx41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx41.TabIndex = 6;
-            this.pbx41.TabStop = false;
-            // 
-            // pbx31
-            // 
-            this.pbx31.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx31.Image = global::GUI.Properties.Resources._31;
-            this.pbx31.Location = new System.Drawing.Point(171, 172);
-            this.pbx31.Name = "pbx31";
-            this.pbx31.Size = new System.Drawing.Size(86, 49);
-            this.pbx31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx31.TabIndex = 5;
-            this.pbx31.TabStop = false;
-            // 
-            // pbx1
-            // 
-            this.pbx1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx1.Image = global::GUI.Properties.Resources._1;
-            this.pbx1.Location = new System.Drawing.Point(171, 12);
-            this.pbx1.Name = "pbx1";
-            this.pbx1.Size = new System.Drawing.Size(86, 51);
-            this.pbx1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx1.TabIndex = 4;
-            this.pbx1.TabStop = false;
-            // 
-            // pbx11
-            // 
-            this.pbx11.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx11.Image = global::GUI.Properties.Resources._11;
-            this.pbx11.Location = new System.Drawing.Point(171, 69);
-            this.pbx11.Name = "pbx11";
-            this.pbx11.Size = new System.Drawing.Size(86, 46);
-            this.pbx11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx11.TabIndex = 3;
-            this.pbx11.TabStop = false;
-            // 
-            // pbx21
-            // 
-            this.pbx21.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbx21.Image = global::GUI.Properties.Resources._21;
-            this.pbx21.Location = new System.Drawing.Point(171, 121);
-            this.pbx21.Name = "pbx21";
-            this.pbx21.Size = new System.Drawing.Size(86, 45);
-            this.pbx21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx21.TabIndex = 2;
-            this.pbx21.TabStop = false;
-            // 
             // label1
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(1145, 140);
+            this.label1.Location = new System.Drawing.Point(1137, 151);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 13);
             this.label1.TabIndex = 128;
@@ -1656,28 +185,1400 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(50, 140);
+            this.label2.Location = new System.Drawing.Point(71, 151);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(54, 13);
             this.label2.TabIndex = 129;
             this.label2.Text = "Jugador 1";
             // 
+            // button111
+            // 
+            this.button111.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button111.Location = new System.Drawing.Point(898, 600);
+            this.button111.Name = "button111";
+            this.button111.Size = new System.Drawing.Size(63, 58);
+            this.button111.TabIndex = 250;
+            this.button111.Text = "119";
+            this.button111.UseVisualStyleBackColor = true;
+            // 
+            // button112
+            // 
+            this.button112.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button112.Location = new System.Drawing.Point(898, 536);
+            this.button112.Name = "button112";
+            this.button112.Size = new System.Drawing.Size(63, 58);
+            this.button112.TabIndex = 249;
+            this.button112.Text = "107";
+            this.button112.UseVisualStyleBackColor = true;
+            // 
+            // button113
+            // 
+            this.button113.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button113.Location = new System.Drawing.Point(898, 472);
+            this.button113.Name = "button113";
+            this.button113.Size = new System.Drawing.Size(63, 58);
+            this.button113.TabIndex = 248;
+            this.button113.Text = "95";
+            this.button113.UseVisualStyleBackColor = true;
+            // 
+            // button114
+            // 
+            this.button114.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button114.Location = new System.Drawing.Point(898, 408);
+            this.button114.Name = "button114";
+            this.button114.Size = new System.Drawing.Size(63, 58);
+            this.button114.TabIndex = 247;
+            this.button114.Text = "83";
+            this.button114.UseVisualStyleBackColor = true;
+            // 
+            // button115
+            // 
+            this.button115.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button115.Location = new System.Drawing.Point(898, 344);
+            this.button115.Name = "button115";
+            this.button115.Size = new System.Drawing.Size(63, 58);
+            this.button115.TabIndex = 246;
+            this.button115.Text = "71";
+            this.button115.UseVisualStyleBackColor = true;
+            // 
+            // button116
+            // 
+            this.button116.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button116.Location = new System.Drawing.Point(898, 280);
+            this.button116.Name = "button116";
+            this.button116.Size = new System.Drawing.Size(63, 58);
+            this.button116.TabIndex = 245;
+            this.button116.Text = "59";
+            this.button116.UseVisualStyleBackColor = true;
+            // 
+            // button117
+            // 
+            this.button117.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button117.Location = new System.Drawing.Point(898, 216);
+            this.button117.Name = "button117";
+            this.button117.Size = new System.Drawing.Size(63, 58);
+            this.button117.TabIndex = 244;
+            this.button117.Text = "47";
+            this.button117.UseVisualStyleBackColor = true;
+            // 
+            // button118
+            // 
+            this.button118.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button118.Location = new System.Drawing.Point(898, 152);
+            this.button118.Name = "button118";
+            this.button118.Size = new System.Drawing.Size(63, 58);
+            this.button118.TabIndex = 243;
+            this.button118.Text = "35";
+            this.button118.UseVisualStyleBackColor = true;
+            // 
+            // button119
+            // 
+            this.button119.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button119.Location = new System.Drawing.Point(898, 88);
+            this.button119.Name = "button119";
+            this.button119.Size = new System.Drawing.Size(63, 58);
+            this.button119.TabIndex = 242;
+            this.button119.Text = "23";
+            this.button119.UseVisualStyleBackColor = true;
+            // 
+            // button120
+            // 
+            this.button120.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button120.Location = new System.Drawing.Point(898, 24);
+            this.button120.Name = "button120";
+            this.button120.Size = new System.Drawing.Size(63, 58);
+            this.button120.TabIndex = 241;
+            this.button120.Text = "11";
+            this.button120.UseVisualStyleBackColor = true;
+            // 
+            // button101
+            // 
+            this.button101.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button101.Location = new System.Drawing.Point(829, 600);
+            this.button101.Name = "button101";
+            this.button101.Size = new System.Drawing.Size(63, 58);
+            this.button101.TabIndex = 240;
+            this.button101.Text = "118";
+            this.button101.UseVisualStyleBackColor = true;
+            // 
+            // button102
+            // 
+            this.button102.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button102.Location = new System.Drawing.Point(829, 536);
+            this.button102.Name = "button102";
+            this.button102.Size = new System.Drawing.Size(63, 58);
+            this.button102.TabIndex = 239;
+            this.button102.Text = "106";
+            this.button102.UseVisualStyleBackColor = true;
+            // 
+            // button103
+            // 
+            this.button103.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button103.Location = new System.Drawing.Point(829, 472);
+            this.button103.Name = "button103";
+            this.button103.Size = new System.Drawing.Size(63, 58);
+            this.button103.TabIndex = 238;
+            this.button103.Text = "94";
+            this.button103.UseVisualStyleBackColor = true;
+            // 
+            // button104
+            // 
+            this.button104.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button104.Location = new System.Drawing.Point(829, 408);
+            this.button104.Name = "button104";
+            this.button104.Size = new System.Drawing.Size(63, 58);
+            this.button104.TabIndex = 237;
+            this.button104.Text = "82";
+            this.button104.UseVisualStyleBackColor = true;
+            // 
+            // button105
+            // 
+            this.button105.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button105.Location = new System.Drawing.Point(829, 344);
+            this.button105.Name = "button105";
+            this.button105.Size = new System.Drawing.Size(63, 58);
+            this.button105.TabIndex = 236;
+            this.button105.Text = "70";
+            this.button105.UseVisualStyleBackColor = true;
+            // 
+            // button106
+            // 
+            this.button106.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button106.Location = new System.Drawing.Point(829, 280);
+            this.button106.Name = "button106";
+            this.button106.Size = new System.Drawing.Size(63, 58);
+            this.button106.TabIndex = 235;
+            this.button106.Text = "58";
+            this.button106.UseVisualStyleBackColor = true;
+            // 
+            // button107
+            // 
+            this.button107.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button107.Location = new System.Drawing.Point(829, 216);
+            this.button107.Name = "button107";
+            this.button107.Size = new System.Drawing.Size(63, 58);
+            this.button107.TabIndex = 234;
+            this.button107.Text = "46";
+            this.button107.UseVisualStyleBackColor = true;
+            // 
+            // button108
+            // 
+            this.button108.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button108.Location = new System.Drawing.Point(829, 152);
+            this.button108.Name = "button108";
+            this.button108.Size = new System.Drawing.Size(63, 58);
+            this.button108.TabIndex = 233;
+            this.button108.Text = "34";
+            this.button108.UseVisualStyleBackColor = true;
+            // 
+            // button109
+            // 
+            this.button109.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button109.Location = new System.Drawing.Point(829, 88);
+            this.button109.Name = "button109";
+            this.button109.Size = new System.Drawing.Size(63, 58);
+            this.button109.TabIndex = 232;
+            this.button109.Text = "22";
+            this.button109.UseVisualStyleBackColor = true;
+            // 
+            // button110
+            // 
+            this.button110.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button110.Location = new System.Drawing.Point(829, 24);
+            this.button110.Name = "button110";
+            this.button110.Size = new System.Drawing.Size(63, 58);
+            this.button110.TabIndex = 231;
+            this.button110.Text = "10";
+            this.button110.UseVisualStyleBackColor = true;
+            // 
+            // button92
+            // 
+            this.button92.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button92.Location = new System.Drawing.Point(760, 536);
+            this.button92.Name = "button92";
+            this.button92.Size = new System.Drawing.Size(63, 58);
+            this.button92.TabIndex = 229;
+            this.button92.Text = "105";
+            this.button92.UseVisualStyleBackColor = true;
+            // 
+            // button93
+            // 
+            this.button93.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button93.Location = new System.Drawing.Point(760, 472);
+            this.button93.Name = "button93";
+            this.button93.Size = new System.Drawing.Size(63, 58);
+            this.button93.TabIndex = 228;
+            this.button93.Text = "93";
+            this.button93.UseVisualStyleBackColor = true;
+            // 
+            // button94
+            // 
+            this.button94.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button94.Location = new System.Drawing.Point(760, 408);
+            this.button94.Name = "button94";
+            this.button94.Size = new System.Drawing.Size(63, 58);
+            this.button94.TabIndex = 227;
+            this.button94.Text = "81";
+            this.button94.UseVisualStyleBackColor = true;
+            // 
+            // button95
+            // 
+            this.button95.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button95.Location = new System.Drawing.Point(760, 344);
+            this.button95.Name = "button95";
+            this.button95.Size = new System.Drawing.Size(63, 58);
+            this.button95.TabIndex = 226;
+            this.button95.Text = "69";
+            this.button95.UseVisualStyleBackColor = true;
+            // 
+            // button96
+            // 
+            this.button96.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button96.Location = new System.Drawing.Point(760, 280);
+            this.button96.Name = "button96";
+            this.button96.Size = new System.Drawing.Size(63, 58);
+            this.button96.TabIndex = 225;
+            this.button96.Text = "57";
+            this.button96.UseVisualStyleBackColor = true;
+            // 
+            // button97
+            // 
+            this.button97.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button97.Location = new System.Drawing.Point(760, 216);
+            this.button97.Name = "button97";
+            this.button97.Size = new System.Drawing.Size(63, 58);
+            this.button97.TabIndex = 224;
+            this.button97.Text = "45";
+            this.button97.UseVisualStyleBackColor = true;
+            // 
+            // button98
+            // 
+            this.button98.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button98.Location = new System.Drawing.Point(760, 152);
+            this.button98.Name = "button98";
+            this.button98.Size = new System.Drawing.Size(63, 58);
+            this.button98.TabIndex = 223;
+            this.button98.Text = "33";
+            this.button98.UseVisualStyleBackColor = true;
+            // 
+            // button99
+            // 
+            this.button99.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button99.Location = new System.Drawing.Point(760, 88);
+            this.button99.Name = "button99";
+            this.button99.Size = new System.Drawing.Size(63, 58);
+            this.button99.TabIndex = 222;
+            this.button99.Text = "21";
+            this.button99.UseVisualStyleBackColor = true;
+            // 
+            // button100
+            // 
+            this.button100.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button100.Location = new System.Drawing.Point(760, 24);
+            this.button100.Name = "button100";
+            this.button100.Size = new System.Drawing.Size(63, 58);
+            this.button100.TabIndex = 221;
+            this.button100.Text = "9";
+            this.button100.UseVisualStyleBackColor = true;
+            // 
+            // button82
+            // 
+            this.button82.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button82.Location = new System.Drawing.Point(967, 536);
+            this.button82.Name = "button82";
+            this.button82.Size = new System.Drawing.Size(63, 58);
+            this.button82.TabIndex = 219;
+            this.button82.Text = "108";
+            this.button82.UseVisualStyleBackColor = true;
+            // 
+            // button83
+            // 
+            this.button83.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button83.Location = new System.Drawing.Point(967, 472);
+            this.button83.Name = "button83";
+            this.button83.Size = new System.Drawing.Size(63, 58);
+            this.button83.TabIndex = 218;
+            this.button83.Text = "96";
+            this.button83.UseVisualStyleBackColor = true;
+            // 
+            // button84
+            // 
+            this.button84.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button84.Location = new System.Drawing.Point(967, 408);
+            this.button84.Name = "button84";
+            this.button84.Size = new System.Drawing.Size(63, 58);
+            this.button84.TabIndex = 217;
+            this.button84.Text = "84";
+            this.button84.UseVisualStyleBackColor = true;
+            // 
+            // button85
+            // 
+            this.button85.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button85.Location = new System.Drawing.Point(967, 344);
+            this.button85.Name = "button85";
+            this.button85.Size = new System.Drawing.Size(63, 58);
+            this.button85.TabIndex = 216;
+            this.button85.Text = "72";
+            this.button85.UseVisualStyleBackColor = true;
+            // 
+            // button86
+            // 
+            this.button86.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button86.Location = new System.Drawing.Point(967, 280);
+            this.button86.Name = "button86";
+            this.button86.Size = new System.Drawing.Size(63, 58);
+            this.button86.TabIndex = 215;
+            this.button86.Text = "60";
+            this.button86.UseVisualStyleBackColor = true;
+            // 
+            // button87
+            // 
+            this.button87.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button87.Location = new System.Drawing.Point(967, 216);
+            this.button87.Name = "button87";
+            this.button87.Size = new System.Drawing.Size(63, 58);
+            this.button87.TabIndex = 214;
+            this.button87.Text = "48";
+            this.button87.UseVisualStyleBackColor = true;
+            // 
+            // button88
+            // 
+            this.button88.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button88.Location = new System.Drawing.Point(967, 152);
+            this.button88.Name = "button88";
+            this.button88.Size = new System.Drawing.Size(63, 58);
+            this.button88.TabIndex = 213;
+            this.button88.Text = "36";
+            this.button88.UseVisualStyleBackColor = true;
+            // 
+            // button90
+            // 
+            this.button90.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button90.Location = new System.Drawing.Point(967, 24);
+            this.button90.Name = "button90";
+            this.button90.Size = new System.Drawing.Size(63, 58);
+            this.button90.TabIndex = 211;
+            this.button90.Text = "12";
+            this.button90.UseVisualStyleBackColor = true;
+            // 
+            // button71
+            // 
+            this.button71.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button71.Location = new System.Drawing.Point(691, 600);
+            this.button71.Name = "button71";
+            this.button71.Size = new System.Drawing.Size(63, 58);
+            this.button71.TabIndex = 210;
+            this.button71.Text = "116";
+            this.button71.UseVisualStyleBackColor = true;
+            // 
+            // button72
+            // 
+            this.button72.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button72.Location = new System.Drawing.Point(691, 536);
+            this.button72.Name = "button72";
+            this.button72.Size = new System.Drawing.Size(63, 58);
+            this.button72.TabIndex = 209;
+            this.button72.Text = "104";
+            this.button72.UseVisualStyleBackColor = true;
+            // 
+            // button73
+            // 
+            this.button73.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button73.Location = new System.Drawing.Point(691, 472);
+            this.button73.Name = "button73";
+            this.button73.Size = new System.Drawing.Size(63, 58);
+            this.button73.TabIndex = 208;
+            this.button73.Text = "92";
+            this.button73.UseVisualStyleBackColor = true;
+            // 
+            // button74
+            // 
+            this.button74.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button74.Location = new System.Drawing.Point(691, 408);
+            this.button74.Name = "button74";
+            this.button74.Size = new System.Drawing.Size(63, 58);
+            this.button74.TabIndex = 207;
+            this.button74.Text = "80";
+            this.button74.UseVisualStyleBackColor = true;
+            // 
+            // button75
+            // 
+            this.button75.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button75.Location = new System.Drawing.Point(691, 344);
+            this.button75.Name = "button75";
+            this.button75.Size = new System.Drawing.Size(63, 58);
+            this.button75.TabIndex = 206;
+            this.button75.Text = "68";
+            this.button75.UseVisualStyleBackColor = true;
+            // 
+            // button76
+            // 
+            this.button76.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button76.Location = new System.Drawing.Point(691, 280);
+            this.button76.Name = "button76";
+            this.button76.Size = new System.Drawing.Size(63, 58);
+            this.button76.TabIndex = 205;
+            this.button76.Text = "56";
+            this.button76.UseVisualStyleBackColor = true;
+            // 
+            // button77
+            // 
+            this.button77.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button77.Location = new System.Drawing.Point(691, 216);
+            this.button77.Name = "button77";
+            this.button77.Size = new System.Drawing.Size(63, 58);
+            this.button77.TabIndex = 204;
+            this.button77.Text = "44";
+            this.button77.UseVisualStyleBackColor = true;
+            // 
+            // button78
+            // 
+            this.button78.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button78.Location = new System.Drawing.Point(691, 152);
+            this.button78.Name = "button78";
+            this.button78.Size = new System.Drawing.Size(63, 58);
+            this.button78.TabIndex = 203;
+            this.button78.Text = "32";
+            this.button78.UseVisualStyleBackColor = true;
+            // 
+            // button79
+            // 
+            this.button79.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button79.Location = new System.Drawing.Point(691, 88);
+            this.button79.Name = "button79";
+            this.button79.Size = new System.Drawing.Size(63, 58);
+            this.button79.TabIndex = 202;
+            this.button79.Text = "20";
+            this.button79.UseVisualStyleBackColor = true;
+            // 
+            // button80
+            // 
+            this.button80.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button80.Location = new System.Drawing.Point(691, 24);
+            this.button80.Name = "button80";
+            this.button80.Size = new System.Drawing.Size(63, 58);
+            this.button80.TabIndex = 201;
+            this.button80.Text = "8";
+            this.button80.UseVisualStyleBackColor = true;
+            // 
+            // button61
+            // 
+            this.button61.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button61.Location = new System.Drawing.Point(622, 600);
+            this.button61.Name = "button61";
+            this.button61.Size = new System.Drawing.Size(63, 58);
+            this.button61.TabIndex = 200;
+            this.button61.Text = "115";
+            this.button61.UseVisualStyleBackColor = true;
+            // 
+            // button62
+            // 
+            this.button62.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button62.Location = new System.Drawing.Point(622, 536);
+            this.button62.Name = "button62";
+            this.button62.Size = new System.Drawing.Size(63, 58);
+            this.button62.TabIndex = 199;
+            this.button62.Text = "103";
+            this.button62.UseVisualStyleBackColor = true;
+            // 
+            // button64
+            // 
+            this.button64.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button64.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button64.Location = new System.Drawing.Point(622, 408);
+            this.button64.Name = "button64";
+            this.button64.Size = new System.Drawing.Size(63, 58);
+            this.button64.TabIndex = 197;
+            this.button64.Text = "79";
+            this.button64.UseVisualStyleBackColor = true;
+            // 
+            // button65
+            // 
+            this.button65.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button65.Location = new System.Drawing.Point(622, 344);
+            this.button65.Name = "button65";
+            this.button65.Size = new System.Drawing.Size(63, 58);
+            this.button65.TabIndex = 196;
+            this.button65.Text = "67";
+            this.button65.UseVisualStyleBackColor = true;
+            // 
+            // button66
+            // 
+            this.button66.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button66.Location = new System.Drawing.Point(622, 280);
+            this.button66.Name = "button66";
+            this.button66.Size = new System.Drawing.Size(63, 58);
+            this.button66.TabIndex = 195;
+            this.button66.Text = "55";
+            this.button66.UseVisualStyleBackColor = true;
+            // 
+            // button67
+            // 
+            this.button67.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button67.Location = new System.Drawing.Point(622, 216);
+            this.button67.Name = "button67";
+            this.button67.Size = new System.Drawing.Size(63, 58);
+            this.button67.TabIndex = 194;
+            this.button67.Text = "43";
+            this.button67.UseVisualStyleBackColor = true;
+            // 
+            // button68
+            // 
+            this.button68.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button68.Location = new System.Drawing.Point(622, 152);
+            this.button68.Name = "button68";
+            this.button68.Size = new System.Drawing.Size(63, 58);
+            this.button68.TabIndex = 193;
+            this.button68.Text = "31";
+            this.button68.UseVisualStyleBackColor = true;
+            // 
+            // button69
+            // 
+            this.button69.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button69.Location = new System.Drawing.Point(622, 88);
+            this.button69.Name = "button69";
+            this.button69.Size = new System.Drawing.Size(63, 58);
+            this.button69.TabIndex = 192;
+            this.button69.Text = "19";
+            this.button69.UseVisualStyleBackColor = true;
+            // 
+            // button51
+            // 
+            this.button51.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button51.Location = new System.Drawing.Point(553, 600);
+            this.button51.Name = "button51";
+            this.button51.Size = new System.Drawing.Size(63, 58);
+            this.button51.TabIndex = 190;
+            this.button51.Text = "114";
+            this.button51.UseVisualStyleBackColor = true;
+            // 
+            // button52
+            // 
+            this.button52.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button52.Location = new System.Drawing.Point(553, 536);
+            this.button52.Name = "button52";
+            this.button52.Size = new System.Drawing.Size(63, 58);
+            this.button52.TabIndex = 189;
+            this.button52.Text = "102";
+            this.button52.UseVisualStyleBackColor = true;
+            // 
+            // button53
+            // 
+            this.button53.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button53.Location = new System.Drawing.Point(553, 472);
+            this.button53.Name = "button53";
+            this.button53.Size = new System.Drawing.Size(63, 58);
+            this.button53.TabIndex = 188;
+            this.button53.Text = "90";
+            this.button53.UseVisualStyleBackColor = true;
+            // 
+            // button54
+            // 
+            this.button54.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button54.Location = new System.Drawing.Point(553, 408);
+            this.button54.Name = "button54";
+            this.button54.Size = new System.Drawing.Size(63, 58);
+            this.button54.TabIndex = 187;
+            this.button54.Text = "78";
+            this.button54.UseVisualStyleBackColor = true;
+            // 
+            // button55
+            // 
+            this.button55.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button55.Location = new System.Drawing.Point(553, 344);
+            this.button55.Name = "button55";
+            this.button55.Size = new System.Drawing.Size(63, 58);
+            this.button55.TabIndex = 186;
+            this.button55.Text = "66";
+            this.button55.UseVisualStyleBackColor = true;
+            // 
+            // button56
+            // 
+            this.button56.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button56.Location = new System.Drawing.Point(553, 280);
+            this.button56.Name = "button56";
+            this.button56.Size = new System.Drawing.Size(63, 58);
+            this.button56.TabIndex = 185;
+            this.button56.Text = "54";
+            this.button56.UseVisualStyleBackColor = true;
+            // 
+            // button57
+            // 
+            this.button57.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button57.Location = new System.Drawing.Point(553, 216);
+            this.button57.Name = "button57";
+            this.button57.Size = new System.Drawing.Size(63, 58);
+            this.button57.TabIndex = 184;
+            this.button57.Text = "42";
+            this.button57.UseVisualStyleBackColor = true;
+            // 
+            // button58
+            // 
+            this.button58.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button58.Location = new System.Drawing.Point(553, 152);
+            this.button58.Name = "button58";
+            this.button58.Size = new System.Drawing.Size(63, 58);
+            this.button58.TabIndex = 183;
+            this.button58.Text = "30";
+            this.button58.UseVisualStyleBackColor = true;
+            // 
+            // button59
+            // 
+            this.button59.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button59.Location = new System.Drawing.Point(553, 88);
+            this.button59.Name = "button59";
+            this.button59.Size = new System.Drawing.Size(63, 58);
+            this.button59.TabIndex = 182;
+            this.button59.Text = "18";
+            this.button59.UseVisualStyleBackColor = true;
+            // 
+            // button60
+            // 
+            this.button60.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button60.Location = new System.Drawing.Point(553, 24);
+            this.button60.Name = "button60";
+            this.button60.Size = new System.Drawing.Size(63, 58);
+            this.button60.TabIndex = 181;
+            this.button60.Text = "6";
+            this.button60.UseVisualStyleBackColor = true;
+            // 
+            // button41
+            // 
+            this.button41.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button41.Location = new System.Drawing.Point(484, 600);
+            this.button41.Name = "button41";
+            this.button41.Size = new System.Drawing.Size(63, 58);
+            this.button41.TabIndex = 180;
+            this.button41.Text = "113";
+            this.button41.UseVisualStyleBackColor = true;
+            // 
+            // button42
+            // 
+            this.button42.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button42.Location = new System.Drawing.Point(484, 536);
+            this.button42.Name = "button42";
+            this.button42.Size = new System.Drawing.Size(63, 58);
+            this.button42.TabIndex = 179;
+            this.button42.Text = "101";
+            this.button42.UseVisualStyleBackColor = true;
+            // 
+            // button43
+            // 
+            this.button43.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button43.Location = new System.Drawing.Point(484, 472);
+            this.button43.Name = "button43";
+            this.button43.Size = new System.Drawing.Size(63, 58);
+            this.button43.TabIndex = 178;
+            this.button43.Text = "89";
+            this.button43.UseVisualStyleBackColor = true;
+            // 
+            // button44
+            // 
+            this.button44.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button44.Location = new System.Drawing.Point(484, 408);
+            this.button44.Name = "button44";
+            this.button44.Size = new System.Drawing.Size(63, 58);
+            this.button44.TabIndex = 177;
+            this.button44.Text = "77";
+            this.button44.UseVisualStyleBackColor = true;
+            // 
+            // button45
+            // 
+            this.button45.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button45.Location = new System.Drawing.Point(484, 344);
+            this.button45.Name = "button45";
+            this.button45.Size = new System.Drawing.Size(63, 58);
+            this.button45.TabIndex = 176;
+            this.button45.Text = "65";
+            this.button45.UseVisualStyleBackColor = true;
+            // 
+            // button46
+            // 
+            this.button46.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button46.Location = new System.Drawing.Point(484, 280);
+            this.button46.Name = "button46";
+            this.button46.Size = new System.Drawing.Size(63, 58);
+            this.button46.TabIndex = 175;
+            this.button46.Text = "53";
+            this.button46.UseVisualStyleBackColor = true;
+            // 
+            // button47
+            // 
+            this.button47.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button47.Location = new System.Drawing.Point(484, 216);
+            this.button47.Name = "button47";
+            this.button47.Size = new System.Drawing.Size(63, 58);
+            this.button47.TabIndex = 174;
+            this.button47.Text = "41";
+            this.button47.UseVisualStyleBackColor = true;
+            // 
+            // button48
+            // 
+            this.button48.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button48.Location = new System.Drawing.Point(484, 152);
+            this.button48.Name = "button48";
+            this.button48.Size = new System.Drawing.Size(63, 58);
+            this.button48.TabIndex = 173;
+            this.button48.Text = "29";
+            this.button48.UseVisualStyleBackColor = true;
+            // 
+            // button49
+            // 
+            this.button49.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button49.Location = new System.Drawing.Point(484, 88);
+            this.button49.Name = "button49";
+            this.button49.Size = new System.Drawing.Size(63, 58);
+            this.button49.TabIndex = 172;
+            this.button49.Text = "17";
+            this.button49.UseVisualStyleBackColor = true;
+            // 
+            // button50
+            // 
+            this.button50.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button50.Location = new System.Drawing.Point(484, 24);
+            this.button50.Name = "button50";
+            this.button50.Size = new System.Drawing.Size(63, 58);
+            this.button50.TabIndex = 171;
+            this.button50.Text = "5";
+            this.button50.UseVisualStyleBackColor = true;
+            // 
+            // button31
+            // 
+            this.button31.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button31.Location = new System.Drawing.Point(415, 600);
+            this.button31.Name = "button31";
+            this.button31.Size = new System.Drawing.Size(63, 58);
+            this.button31.TabIndex = 170;
+            this.button31.Text = "112";
+            this.button31.UseVisualStyleBackColor = true;
+            // 
+            // button32
+            // 
+            this.button32.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button32.Location = new System.Drawing.Point(415, 536);
+            this.button32.Name = "button32";
+            this.button32.Size = new System.Drawing.Size(63, 58);
+            this.button32.TabIndex = 169;
+            this.button32.Text = "100";
+            this.button32.UseVisualStyleBackColor = true;
+            // 
+            // button33
+            // 
+            this.button33.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button33.Location = new System.Drawing.Point(415, 472);
+            this.button33.Name = "button33";
+            this.button33.Size = new System.Drawing.Size(63, 58);
+            this.button33.TabIndex = 168;
+            this.button33.Text = "88";
+            this.button33.UseVisualStyleBackColor = true;
+            // 
+            // button35
+            // 
+            this.button35.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button35.Location = new System.Drawing.Point(415, 344);
+            this.button35.Name = "button35";
+            this.button35.Size = new System.Drawing.Size(63, 58);
+            this.button35.TabIndex = 166;
+            this.button35.Text = "64";
+            this.button35.UseVisualStyleBackColor = true;
+            // 
+            // button37
+            // 
+            this.button37.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button37.Location = new System.Drawing.Point(415, 216);
+            this.button37.Name = "button37";
+            this.button37.Size = new System.Drawing.Size(63, 58);
+            this.button37.TabIndex = 164;
+            this.button37.Text = "40";
+            this.button37.UseVisualStyleBackColor = true;
+            // 
+            // button38
+            // 
+            this.button38.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button38.Location = new System.Drawing.Point(415, 152);
+            this.button38.Name = "button38";
+            this.button38.Size = new System.Drawing.Size(63, 58);
+            this.button38.TabIndex = 163;
+            this.button38.Text = "28";
+            this.button38.UseVisualStyleBackColor = true;
+            // 
+            // button39
+            // 
+            this.button39.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button39.Location = new System.Drawing.Point(415, 88);
+            this.button39.Name = "button39";
+            this.button39.Size = new System.Drawing.Size(63, 58);
+            this.button39.TabIndex = 162;
+            this.button39.Text = "16";
+            this.button39.UseVisualStyleBackColor = true;
+            // 
+            // button40
+            // 
+            this.button40.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button40.Location = new System.Drawing.Point(415, 24);
+            this.button40.Name = "button40";
+            this.button40.Size = new System.Drawing.Size(63, 58);
+            this.button40.TabIndex = 161;
+            this.button40.Text = "4";
+            this.button40.UseVisualStyleBackColor = true;
+            // 
+            // button21
+            // 
+            this.button21.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button21.Location = new System.Drawing.Point(346, 600);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(63, 58);
+            this.button21.TabIndex = 160;
+            this.button21.Text = "111";
+            this.button21.UseVisualStyleBackColor = true;
+            // 
+            // button22
+            // 
+            this.button22.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button22.Location = new System.Drawing.Point(346, 536);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(63, 58);
+            this.button22.TabIndex = 159;
+            this.button22.Text = "99";
+            this.button22.UseVisualStyleBackColor = true;
+            // 
+            // button23
+            // 
+            this.button23.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button23.Location = new System.Drawing.Point(346, 472);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(63, 58);
+            this.button23.TabIndex = 158;
+            this.button23.Text = "87";
+            this.button23.UseVisualStyleBackColor = true;
+            // 
+            // button24
+            // 
+            this.button24.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button24.Location = new System.Drawing.Point(346, 408);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(63, 58);
+            this.button24.TabIndex = 157;
+            this.button24.Text = "75";
+            this.button24.UseVisualStyleBackColor = true;
+            // 
+            // button25
+            // 
+            this.button25.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button25.Location = new System.Drawing.Point(346, 344);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(63, 58);
+            this.button25.TabIndex = 156;
+            this.button25.Text = "63";
+            this.button25.UseVisualStyleBackColor = true;
+            // 
+            // button26
+            // 
+            this.button26.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button26.Location = new System.Drawing.Point(346, 280);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(63, 58);
+            this.button26.TabIndex = 155;
+            this.button26.Text = "51";
+            this.button26.UseVisualStyleBackColor = true;
+            // 
+            // button27
+            // 
+            this.button27.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button27.Location = new System.Drawing.Point(346, 216);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(63, 58);
+            this.button27.TabIndex = 154;
+            this.button27.Text = "39";
+            this.button27.UseVisualStyleBackColor = true;
+            // 
+            // button28
+            // 
+            this.button28.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button28.Location = new System.Drawing.Point(346, 152);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(63, 58);
+            this.button28.TabIndex = 153;
+            this.button28.Text = "27";
+            this.button28.UseVisualStyleBackColor = true;
+            // 
+            // button29
+            // 
+            this.button29.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button29.Location = new System.Drawing.Point(346, 88);
+            this.button29.Name = "button29";
+            this.button29.Size = new System.Drawing.Size(63, 58);
+            this.button29.TabIndex = 152;
+            this.button29.Text = "15";
+            this.button29.UseVisualStyleBackColor = true;
+            // 
+            // button30
+            // 
+            this.button30.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button30.Location = new System.Drawing.Point(346, 24);
+            this.button30.Name = "button30";
+            this.button30.Size = new System.Drawing.Size(63, 58);
+            this.button30.TabIndex = 151;
+            this.button30.Text = "3";
+            this.button30.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button11.Location = new System.Drawing.Point(277, 600);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(63, 58);
+            this.button11.TabIndex = 150;
+            this.button11.Text = "110";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // button12
+            // 
+            this.button12.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button12.Location = new System.Drawing.Point(277, 536);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(63, 58);
+            this.button12.TabIndex = 149;
+            this.button12.Text = "98";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // button13
+            // 
+            this.button13.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button13.Location = new System.Drawing.Point(277, 472);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(63, 58);
+            this.button13.TabIndex = 148;
+            this.button13.Text = "86";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // button14
+            // 
+            this.button14.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button14.Location = new System.Drawing.Point(277, 408);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(63, 58);
+            this.button14.TabIndex = 147;
+            this.button14.Text = "74";
+            this.button14.UseVisualStyleBackColor = true;
+            // 
+            // button15
+            // 
+            this.button15.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button15.Location = new System.Drawing.Point(277, 344);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(63, 58);
+            this.button15.TabIndex = 146;
+            this.button15.Text = "62";
+            this.button15.UseVisualStyleBackColor = true;
+            // 
+            // button16
+            // 
+            this.button16.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button16.Location = new System.Drawing.Point(277, 280);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(63, 58);
+            this.button16.TabIndex = 145;
+            this.button16.Text = "50";
+            this.button16.UseVisualStyleBackColor = true;
+            // 
+            // button17
+            // 
+            this.button17.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button17.Location = new System.Drawing.Point(277, 216);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(63, 58);
+            this.button17.TabIndex = 144;
+            this.button17.Text = "38";
+            this.button17.UseVisualStyleBackColor = true;
+            // 
+            // button18
+            // 
+            this.button18.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button18.Location = new System.Drawing.Point(277, 152);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(63, 58);
+            this.button18.TabIndex = 143;
+            this.button18.Text = "26";
+            this.button18.UseVisualStyleBackColor = true;
+            // 
+            // button19
+            // 
+            this.button19.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button19.Location = new System.Drawing.Point(277, 88);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(63, 58);
+            this.button19.TabIndex = 142;
+            this.button19.Text = "14";
+            this.button19.UseVisualStyleBackColor = true;
+            // 
+            // button20
+            // 
+            this.button20.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button20.Location = new System.Drawing.Point(277, 24);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(63, 58);
+            this.button20.TabIndex = 141;
+            this.button20.Text = "2";
+            this.button20.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button10.Location = new System.Drawing.Point(208, 600);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(63, 58);
+            this.button10.TabIndex = 140;
+            this.button10.Text = "109";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button9.Location = new System.Drawing.Point(208, 536);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(63, 58);
+            this.button9.TabIndex = 139;
+            this.button9.Text = "97";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button8.Location = new System.Drawing.Point(208, 472);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(63, 58);
+            this.button8.TabIndex = 138;
+            this.button8.Text = "85";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button7.Location = new System.Drawing.Point(208, 408);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(63, 58);
+            this.button7.TabIndex = 137;
+            this.button7.Text = "73";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button6.Location = new System.Drawing.Point(208, 344);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(63, 58);
+            this.button6.TabIndex = 136;
+            this.button6.Text = "61";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button4.Location = new System.Drawing.Point(208, 216);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(63, 58);
+            this.button4.TabIndex = 134;
+            this.button4.Text = "37";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button3.Location = new System.Drawing.Point(208, 152);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(63, 58);
+            this.button3.TabIndex = 133;
+            this.button3.Text = "25";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button2.Location = new System.Drawing.Point(208, 88);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(63, 58);
+            this.button2.TabIndex = 132;
+            this.button2.Text = "13";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button91
+            // 
+            this.button91.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button91.BackgroundImage = global::GUI.Properties.Resources.bola117;
+            this.button91.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button91.Location = new System.Drawing.Point(760, 600);
+            this.button91.Name = "button91";
+            this.button91.Size = new System.Drawing.Size(63, 58);
+            this.button91.TabIndex = 230;
+            this.button91.Text = "117";
+            this.button91.UseVisualStyleBackColor = true;
+            // 
+            // button81
+            // 
+            this.button81.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button81.BackgroundImage = global::GUI.Properties.Resources.Arbol;
+            this.button81.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button81.Location = new System.Drawing.Point(967, 600);
+            this.button81.Name = "button81";
+            this.button81.Size = new System.Drawing.Size(63, 58);
+            this.button81.TabIndex = 220;
+            this.button81.Text = "120";
+            this.button81.UseVisualStyleBackColor = true;
+            // 
+            // button89
+            // 
+            this.button89.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button89.BackgroundImage = global::GUI.Properties.Resources.bola24;
+            this.button89.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button89.Location = new System.Drawing.Point(967, 88);
+            this.button89.Name = "button89";
+            this.button89.Size = new System.Drawing.Size(63, 58);
+            this.button89.TabIndex = 212;
+            this.button89.Text = "24";
+            this.button89.UseVisualStyleBackColor = true;
+            // 
+            // button63
+            // 
+            this.button63.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button63.BackgroundImage = global::GUI.Properties.Resources.bola91;
+            this.button63.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button63.Location = new System.Drawing.Point(622, 472);
+            this.button63.Name = "button63";
+            this.button63.Size = new System.Drawing.Size(63, 58);
+            this.button63.TabIndex = 198;
+            this.button63.Text = "91";
+            this.button63.UseVisualStyleBackColor = true;
+            // 
+            // button70
+            // 
+            this.button70.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button70.BackgroundImage = global::GUI.Properties.Resources.bola7;
+            this.button70.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button70.Location = new System.Drawing.Point(622, 24);
+            this.button70.Name = "button70";
+            this.button70.Size = new System.Drawing.Size(63, 58);
+            this.button70.TabIndex = 191;
+            this.button70.Text = "7";
+            this.button70.UseVisualStyleBackColor = true;
+            // 
+            // button34
+            // 
+            this.button34.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button34.BackgroundImage = global::GUI.Properties.Resources.bola76;
+            this.button34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button34.Location = new System.Drawing.Point(415, 408);
+            this.button34.Name = "button34";
+            this.button34.Size = new System.Drawing.Size(63, 58);
+            this.button34.TabIndex = 167;
+            this.button34.Text = "76";
+            this.button34.UseVisualStyleBackColor = true;
+            // 
+            // button36
+            // 
+            this.button36.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button36.BackgroundImage = global::GUI.Properties.Resources.bola52;
+            this.button36.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button36.Location = new System.Drawing.Point(415, 280);
+            this.button36.Name = "button36";
+            this.button36.Size = new System.Drawing.Size(63, 58);
+            this.button36.TabIndex = 165;
+            this.button36.Text = "52";
+            this.button36.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button5.BackgroundImage = global::GUI.Properties.Resources.bola49;
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button5.Location = new System.Drawing.Point(208, 280);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(63, 58);
+            this.button5.TabIndex = 135;
+            this.button5.Text = "49";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button1.BackgroundImage = global::GUI.Properties.Resources.santa;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Location = new System.Drawing.Point(208, 24);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(63, 58);
+            this.button1.TabIndex = 131;
+            this.button1.Text = "1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // pbxdado2
             // 
             this.pbxdado2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbxdado2.Image = global::GUI.Properties.Resources.dado4;
-            this.pbxdado2.Location = new System.Drawing.Point(1096, 227);
+            this.pbxdado2.Image = global::GUI.Properties.Resources._1;
+            this.pbxdado2.Location = new System.Drawing.Point(1088, 193);
             this.pbxdado2.Name = "pbxdado2";
             this.pbxdado2.Size = new System.Drawing.Size(138, 145);
             this.pbxdado2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxdado2.TabIndex = 130;
             this.pbxdado2.TabStop = false;
             // 
+            // pbxDado1
+            // 
+            this.pbxDado1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbxDado1.Image = global::GUI.Properties.Resources._6;
+            this.pbxDado1.Location = new System.Drawing.Point(1088, 344);
+            this.pbxDado1.Name = "pbxDado1";
+            this.pbxDado1.Size = new System.Drawing.Size(138, 145);
+            this.pbxDado1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxDado1.TabIndex = 127;
+            this.pbxDado1.TabStop = false;
+            // 
+            // pbxJ1
+            // 
+            this.pbxJ1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbxJ1.Image = global::GUI.Properties.Resources.users1;
+            this.pbxJ1.Location = new System.Drawing.Point(33, 24);
+            this.pbxJ1.Name = "pbxJ1";
+            this.pbxJ1.Size = new System.Drawing.Size(137, 102);
+            this.pbxJ1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxJ1.TabIndex = 125;
+            this.pbxJ1.TabStop = false;
+            // 
+            // pbxJ2
+            // 
+            this.pbxJ2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbxJ2.Image = global::GUI.Properties.Resources.users1;
+            this.pbxJ2.Location = new System.Drawing.Point(1098, 24);
+            this.pbxJ2.Name = "pbxJ2";
+            this.pbxJ2.Size = new System.Drawing.Size(128, 102);
+            this.pbxJ2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxJ2.TabIndex = 124;
+            this.pbxJ2.TabStop = false;
+            // 
             // FrmJuego
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1246, 702);
+            this.ClientSize = new System.Drawing.Size(1252, 670);
+            this.Controls.Add(this.button111);
+            this.Controls.Add(this.button112);
+            this.Controls.Add(this.button113);
+            this.Controls.Add(this.button114);
+            this.Controls.Add(this.button115);
+            this.Controls.Add(this.button116);
+            this.Controls.Add(this.button117);
+            this.Controls.Add(this.button118);
+            this.Controls.Add(this.button119);
+            this.Controls.Add(this.button120);
+            this.Controls.Add(this.button101);
+            this.Controls.Add(this.button102);
+            this.Controls.Add(this.button103);
+            this.Controls.Add(this.button104);
+            this.Controls.Add(this.button105);
+            this.Controls.Add(this.button106);
+            this.Controls.Add(this.button107);
+            this.Controls.Add(this.button108);
+            this.Controls.Add(this.button109);
+            this.Controls.Add(this.button110);
+            this.Controls.Add(this.button91);
+            this.Controls.Add(this.button92);
+            this.Controls.Add(this.button93);
+            this.Controls.Add(this.button94);
+            this.Controls.Add(this.button95);
+            this.Controls.Add(this.button96);
+            this.Controls.Add(this.button97);
+            this.Controls.Add(this.button98);
+            this.Controls.Add(this.button99);
+            this.Controls.Add(this.button100);
+            this.Controls.Add(this.button81);
+            this.Controls.Add(this.button82);
+            this.Controls.Add(this.button83);
+            this.Controls.Add(this.button84);
+            this.Controls.Add(this.button85);
+            this.Controls.Add(this.button86);
+            this.Controls.Add(this.button87);
+            this.Controls.Add(this.button88);
+            this.Controls.Add(this.button89);
+            this.Controls.Add(this.button90);
+            this.Controls.Add(this.button71);
+            this.Controls.Add(this.button72);
+            this.Controls.Add(this.button73);
+            this.Controls.Add(this.button74);
+            this.Controls.Add(this.button75);
+            this.Controls.Add(this.button76);
+            this.Controls.Add(this.button77);
+            this.Controls.Add(this.button78);
+            this.Controls.Add(this.button79);
+            this.Controls.Add(this.button80);
+            this.Controls.Add(this.button61);
+            this.Controls.Add(this.button62);
+            this.Controls.Add(this.button63);
+            this.Controls.Add(this.button64);
+            this.Controls.Add(this.button65);
+            this.Controls.Add(this.button66);
+            this.Controls.Add(this.button67);
+            this.Controls.Add(this.button68);
+            this.Controls.Add(this.button69);
+            this.Controls.Add(this.button70);
+            this.Controls.Add(this.button51);
+            this.Controls.Add(this.button52);
+            this.Controls.Add(this.button53);
+            this.Controls.Add(this.button54);
+            this.Controls.Add(this.button55);
+            this.Controls.Add(this.button56);
+            this.Controls.Add(this.button57);
+            this.Controls.Add(this.button58);
+            this.Controls.Add(this.button59);
+            this.Controls.Add(this.button60);
+            this.Controls.Add(this.button41);
+            this.Controls.Add(this.button42);
+            this.Controls.Add(this.button43);
+            this.Controls.Add(this.button44);
+            this.Controls.Add(this.button45);
+            this.Controls.Add(this.button46);
+            this.Controls.Add(this.button47);
+            this.Controls.Add(this.button48);
+            this.Controls.Add(this.button49);
+            this.Controls.Add(this.button50);
+            this.Controls.Add(this.button31);
+            this.Controls.Add(this.button32);
+            this.Controls.Add(this.button33);
+            this.Controls.Add(this.button34);
+            this.Controls.Add(this.button35);
+            this.Controls.Add(this.button36);
+            this.Controls.Add(this.button37);
+            this.Controls.Add(this.button38);
+            this.Controls.Add(this.button39);
+            this.Controls.Add(this.button40);
+            this.Controls.Add(this.button21);
+            this.Controls.Add(this.button22);
+            this.Controls.Add(this.button23);
+            this.Controls.Add(this.button24);
+            this.Controls.Add(this.button25);
+            this.Controls.Add(this.button26);
+            this.Controls.Add(this.button27);
+            this.Controls.Add(this.button28);
+            this.Controls.Add(this.button29);
+            this.Controls.Add(this.button30);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.button12);
+            this.Controls.Add(this.button13);
+            this.Controls.Add(this.button14);
+            this.Controls.Add(this.button15);
+            this.Controls.Add(this.button16);
+            this.Controls.Add(this.button17);
+            this.Controls.Add(this.button18);
+            this.Controls.Add(this.button19);
+            this.Controls.Add(this.button20);
+            this.Controls.Add(this.button10);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.pbxdado2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -1685,383 +1586,22 @@
             this.Controls.Add(this.btnDado);
             this.Controls.Add(this.pbxJ1);
             this.Controls.Add(this.pbxJ2);
-            this.Controls.Add(this.pbx110);
-            this.Controls.Add(this.pbx120);
-            this.Controls.Add(this.pbx80);
-            this.Controls.Add(this.pbx90);
-            this.Controls.Add(this.pbx100);
-            this.Controls.Add(this.pbx70);
-            this.Controls.Add(this.pbx60);
-            this.Controls.Add(this.pbx50);
-            this.Controls.Add(this.pbx40);
-            this.Controls.Add(this.pbx10);
-            this.Controls.Add(this.pbx20);
-            this.Controls.Add(this.pbx30);
-            this.Controls.Add(this.pbx109);
-            this.Controls.Add(this.pbx119);
-            this.Controls.Add(this.pbx79);
-            this.Controls.Add(this.pbx89);
-            this.Controls.Add(this.pbx99);
-            this.Controls.Add(this.pbx69);
-            this.Controls.Add(this.pbx59);
-            this.Controls.Add(this.pbx49);
-            this.Controls.Add(this.pbx39);
-            this.Controls.Add(this.pbx9);
-            this.Controls.Add(this.pbx19);
-            this.Controls.Add(this.pbx29);
-            this.Controls.Add(this.pbx108);
-            this.Controls.Add(this.pbx118);
-            this.Controls.Add(this.pbx78);
-            this.Controls.Add(this.pbx88);
-            this.Controls.Add(this.pbx98);
-            this.Controls.Add(this.pbx68);
-            this.Controls.Add(this.pbx58);
-            this.Controls.Add(this.pbx48);
-            this.Controls.Add(this.pbx38);
-            this.Controls.Add(this.pbx8);
-            this.Controls.Add(this.pbx18);
-            this.Controls.Add(this.pbx28);
-            this.Controls.Add(this.pbx107);
-            this.Controls.Add(this.pbx117);
-            this.Controls.Add(this.pbx77);
-            this.Controls.Add(this.pbx87);
-            this.Controls.Add(this.pbx97);
-            this.Controls.Add(this.pbx67);
-            this.Controls.Add(this.pbx57);
-            this.Controls.Add(this.pbx47);
-            this.Controls.Add(this.pbx37);
-            this.Controls.Add(this.pbx7);
-            this.Controls.Add(this.pbx17);
-            this.Controls.Add(this.pbx27);
-            this.Controls.Add(this.pbx106);
-            this.Controls.Add(this.pbx116);
-            this.Controls.Add(this.pbx76);
-            this.Controls.Add(this.pbx86);
-            this.Controls.Add(this.pbx96);
-            this.Controls.Add(this.pbx66);
-            this.Controls.Add(this.pbx56);
-            this.Controls.Add(this.pbx46);
-            this.Controls.Add(this.pbx36);
-            this.Controls.Add(this.pbx6);
-            this.Controls.Add(this.pbx16);
-            this.Controls.Add(this.pbx26);
-            this.Controls.Add(this.pbx105);
-            this.Controls.Add(this.pbx115);
-            this.Controls.Add(this.pbx75);
-            this.Controls.Add(this.pbx85);
-            this.Controls.Add(this.pbx95);
-            this.Controls.Add(this.pbx65);
-            this.Controls.Add(this.pbx55);
-            this.Controls.Add(this.pbx45);
-            this.Controls.Add(this.pbx35);
-            this.Controls.Add(this.pbx5);
-            this.Controls.Add(this.pbx15);
-            this.Controls.Add(this.pbx25);
-            this.Controls.Add(this.pbx104);
-            this.Controls.Add(this.pbx114);
-            this.Controls.Add(this.pbx74);
-            this.Controls.Add(this.pbx84);
-            this.Controls.Add(this.pbx94);
-            this.Controls.Add(this.pbx64);
-            this.Controls.Add(this.pbx54);
-            this.Controls.Add(this.pbx44);
-            this.Controls.Add(this.pbx34);
-            this.Controls.Add(this.pbx4);
-            this.Controls.Add(this.pbx14);
-            this.Controls.Add(this.pbx24);
-            this.Controls.Add(this.pbx103);
-            this.Controls.Add(this.pbx113);
-            this.Controls.Add(this.pbx73);
-            this.Controls.Add(this.pbx83);
-            this.Controls.Add(this.pbx93);
-            this.Controls.Add(this.pbx63);
-            this.Controls.Add(this.pbx53);
-            this.Controls.Add(this.pbx43);
-            this.Controls.Add(this.pbx33);
-            this.Controls.Add(this.pbx3);
-            this.Controls.Add(this.pbx13);
-            this.Controls.Add(this.pbx23);
-            this.Controls.Add(this.pbx102);
-            this.Controls.Add(this.pbx112);
-            this.Controls.Add(this.pbx72);
-            this.Controls.Add(this.pbx82);
-            this.Controls.Add(this.pbx92);
-            this.Controls.Add(this.pbx62);
-            this.Controls.Add(this.pbx52);
-            this.Controls.Add(this.pbx42);
-            this.Controls.Add(this.pbx32);
-            this.Controls.Add(this.pbx2);
-            this.Controls.Add(this.pbx12);
-            this.Controls.Add(this.pbx22);
-            this.Controls.Add(this.pbx101);
-            this.Controls.Add(this.pbx111);
-            this.Controls.Add(this.pbx71);
-            this.Controls.Add(this.pbx81);
-            this.Controls.Add(this.pbx91);
-            this.Controls.Add(this.pbx61);
-            this.Controls.Add(this.pbx51);
-            this.Controls.Add(this.pbx41);
-            this.Controls.Add(this.pbx31);
-            this.Controls.Add(this.pbx1);
-            this.Controls.Add(this.pbx11);
-            this.Controls.Add(this.pbx21);
             this.Name = "FrmJuego";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmJuego";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmJuego_FormClosed);
             this.Load += new System.EventHandler(this.FrmJuego_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pbxdado2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxDado1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxJ1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxJ2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx110)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx120)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx80)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx90)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx100)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx70)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx60)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx50)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx40)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx30)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx109)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx119)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx79)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx89)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx99)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx69)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx59)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx49)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx39)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx29)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx108)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx118)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx78)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx88)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx98)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx68)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx58)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx48)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx38)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx28)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx107)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx117)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx77)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx87)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx97)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx67)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx57)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx47)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx37)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx27)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx106)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx116)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx76)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx86)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx96)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx66)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx56)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx46)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx36)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx105)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx115)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx75)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx85)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx95)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx65)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx55)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx45)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx35)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx25)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx104)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx114)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx74)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx84)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx94)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx64)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx54)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx44)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx34)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx103)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx113)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx73)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx83)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx93)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx63)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx53)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx43)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx33)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx102)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx112)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx72)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx82)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx92)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx62)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx52)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx42)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx32)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx101)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx111)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx71)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx81)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx91)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx61)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx51)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx41)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx31)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbxdado2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pbx21;
-        private System.Windows.Forms.PictureBox pbx11;
-        private System.Windows.Forms.PictureBox pbx1;
-        private System.Windows.Forms.PictureBox pbx31;
-        private System.Windows.Forms.PictureBox pbx41;
-        private System.Windows.Forms.PictureBox pbx51;
-        private System.Windows.Forms.PictureBox pbx61;
-        private System.Windows.Forms.PictureBox pbx91;
-        private System.Windows.Forms.PictureBox pbx81;
-        private System.Windows.Forms.PictureBox pbx71;
-        private System.Windows.Forms.PictureBox pbx111;
-        private System.Windows.Forms.PictureBox pbx101;
-        private System.Windows.Forms.PictureBox pbx102;
-        private System.Windows.Forms.PictureBox pbx112;
-        private System.Windows.Forms.PictureBox pbx72;
-        private System.Windows.Forms.PictureBox pbx82;
-        private System.Windows.Forms.PictureBox pbx92;
-        private System.Windows.Forms.PictureBox pbx62;
-        private System.Windows.Forms.PictureBox pbx52;
-        private System.Windows.Forms.PictureBox pbx42;
-        private System.Windows.Forms.PictureBox pbx32;
-        private System.Windows.Forms.PictureBox pbx2;
-        private System.Windows.Forms.PictureBox pbx12;
-        private System.Windows.Forms.PictureBox pbx22;
-        private System.Windows.Forms.PictureBox pbx103;
-        private System.Windows.Forms.PictureBox pbx113;
-        private System.Windows.Forms.PictureBox pbx73;
-        private System.Windows.Forms.PictureBox pbx83;
-        private System.Windows.Forms.PictureBox pbx93;
-        private System.Windows.Forms.PictureBox pbx63;
-        private System.Windows.Forms.PictureBox pbx53;
-        private System.Windows.Forms.PictureBox pbx43;
-        private System.Windows.Forms.PictureBox pbx33;
-        private System.Windows.Forms.PictureBox pbx3;
-        private System.Windows.Forms.PictureBox pbx13;
-        private System.Windows.Forms.PictureBox pbx23;
-        private System.Windows.Forms.PictureBox pbx104;
-        private System.Windows.Forms.PictureBox pbx114;
-        private System.Windows.Forms.PictureBox pbx74;
-        private System.Windows.Forms.PictureBox pbx84;
-        private System.Windows.Forms.PictureBox pbx94;
-        private System.Windows.Forms.PictureBox pbx64;
-        private System.Windows.Forms.PictureBox pbx54;
-        private System.Windows.Forms.PictureBox pbx44;
-        private System.Windows.Forms.PictureBox pbx34;
-        private System.Windows.Forms.PictureBox pbx4;
-        private System.Windows.Forms.PictureBox pbx14;
-        private System.Windows.Forms.PictureBox pbx24;
-        private System.Windows.Forms.PictureBox pbx105;
-        private System.Windows.Forms.PictureBox pbx115;
-        private System.Windows.Forms.PictureBox pbx75;
-        private System.Windows.Forms.PictureBox pbx85;
-        private System.Windows.Forms.PictureBox pbx95;
-        private System.Windows.Forms.PictureBox pbx65;
-        private System.Windows.Forms.PictureBox pbx55;
-        private System.Windows.Forms.PictureBox pbx45;
-        private System.Windows.Forms.PictureBox pbx35;
-        private System.Windows.Forms.PictureBox pbx5;
-        private System.Windows.Forms.PictureBox pbx15;
-        private System.Windows.Forms.PictureBox pbx25;
-        private System.Windows.Forms.PictureBox pbx106;
-        private System.Windows.Forms.PictureBox pbx116;
-        private System.Windows.Forms.PictureBox pbx76;
-        private System.Windows.Forms.PictureBox pbx86;
-        private System.Windows.Forms.PictureBox pbx96;
-        private System.Windows.Forms.PictureBox pbx66;
-        private System.Windows.Forms.PictureBox pbx56;
-        private System.Windows.Forms.PictureBox pbx46;
-        private System.Windows.Forms.PictureBox pbx36;
-        private System.Windows.Forms.PictureBox pbx6;
-        private System.Windows.Forms.PictureBox pbx16;
-        private System.Windows.Forms.PictureBox pbx26;
-        private System.Windows.Forms.PictureBox pbx107;
-        private System.Windows.Forms.PictureBox pbx117;
-        private System.Windows.Forms.PictureBox pbx77;
-        private System.Windows.Forms.PictureBox pbx87;
-        private System.Windows.Forms.PictureBox pbx97;
-        private System.Windows.Forms.PictureBox pbx67;
-        private System.Windows.Forms.PictureBox pbx57;
-        private System.Windows.Forms.PictureBox pbx47;
-        private System.Windows.Forms.PictureBox pbx37;
-        private System.Windows.Forms.PictureBox pbx7;
-        private System.Windows.Forms.PictureBox pbx17;
-        private System.Windows.Forms.PictureBox pbx27;
-        private System.Windows.Forms.PictureBox pbx108;
-        private System.Windows.Forms.PictureBox pbx118;
-        private System.Windows.Forms.PictureBox pbx78;
-        private System.Windows.Forms.PictureBox pbx88;
-        private System.Windows.Forms.PictureBox pbx98;
-        private System.Windows.Forms.PictureBox pbx68;
-        private System.Windows.Forms.PictureBox pbx58;
-        private System.Windows.Forms.PictureBox pbx48;
-        private System.Windows.Forms.PictureBox pbx38;
-        private System.Windows.Forms.PictureBox pbx8;
-        private System.Windows.Forms.PictureBox pbx18;
-        private System.Windows.Forms.PictureBox pbx28;
-        private System.Windows.Forms.PictureBox pbx109;
-        private System.Windows.Forms.PictureBox pbx119;
-        private System.Windows.Forms.PictureBox pbx79;
-        private System.Windows.Forms.PictureBox pbx89;
-        private System.Windows.Forms.PictureBox pbx99;
-        private System.Windows.Forms.PictureBox pbx69;
-        private System.Windows.Forms.PictureBox pbx59;
-        private System.Windows.Forms.PictureBox pbx49;
-        private System.Windows.Forms.PictureBox pbx39;
-        private System.Windows.Forms.PictureBox pbx9;
-        private System.Windows.Forms.PictureBox pbx19;
-        private System.Windows.Forms.PictureBox pbx29;
-        private System.Windows.Forms.PictureBox pbx110;
-        private System.Windows.Forms.PictureBox pbx120;
-        private System.Windows.Forms.PictureBox pbx80;
-        private System.Windows.Forms.PictureBox pbx90;
-        private System.Windows.Forms.PictureBox pbx100;
-        private System.Windows.Forms.PictureBox pbx70;
-        private System.Windows.Forms.PictureBox pbx60;
-        private System.Windows.Forms.PictureBox pbx50;
-        private System.Windows.Forms.PictureBox pbx40;
-        private System.Windows.Forms.PictureBox pbx10;
-        private System.Windows.Forms.PictureBox pbx20;
-        private System.Windows.Forms.PictureBox pbx30;
         private System.Windows.Forms.PictureBox pbxJ2;
         private System.Windows.Forms.PictureBox pbxJ1;
         private System.Windows.Forms.Button btnDado;
@@ -2069,5 +1609,125 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pbxdado2;
+        private System.Windows.Forms.Button button111;
+        private System.Windows.Forms.Button button112;
+        private System.Windows.Forms.Button button113;
+        private System.Windows.Forms.Button button114;
+        private System.Windows.Forms.Button button115;
+        private System.Windows.Forms.Button button116;
+        private System.Windows.Forms.Button button117;
+        private System.Windows.Forms.Button button118;
+        private System.Windows.Forms.Button button119;
+        private System.Windows.Forms.Button button120;
+        private System.Windows.Forms.Button button101;
+        private System.Windows.Forms.Button button102;
+        private System.Windows.Forms.Button button103;
+        private System.Windows.Forms.Button button104;
+        private System.Windows.Forms.Button button105;
+        private System.Windows.Forms.Button button106;
+        private System.Windows.Forms.Button button107;
+        private System.Windows.Forms.Button button108;
+        private System.Windows.Forms.Button button109;
+        private System.Windows.Forms.Button button110;
+        private System.Windows.Forms.Button button91;
+        private System.Windows.Forms.Button button92;
+        private System.Windows.Forms.Button button93;
+        private System.Windows.Forms.Button button94;
+        private System.Windows.Forms.Button button95;
+        private System.Windows.Forms.Button button96;
+        private System.Windows.Forms.Button button97;
+        private System.Windows.Forms.Button button98;
+        private System.Windows.Forms.Button button99;
+        private System.Windows.Forms.Button button100;
+        private System.Windows.Forms.Button button81;
+        private System.Windows.Forms.Button button82;
+        private System.Windows.Forms.Button button83;
+        private System.Windows.Forms.Button button84;
+        private System.Windows.Forms.Button button85;
+        private System.Windows.Forms.Button button86;
+        private System.Windows.Forms.Button button87;
+        private System.Windows.Forms.Button button88;
+        private System.Windows.Forms.Button button89;
+        private System.Windows.Forms.Button button90;
+        private System.Windows.Forms.Button button71;
+        private System.Windows.Forms.Button button72;
+        private System.Windows.Forms.Button button73;
+        private System.Windows.Forms.Button button74;
+        private System.Windows.Forms.Button button75;
+        private System.Windows.Forms.Button button76;
+        private System.Windows.Forms.Button button77;
+        private System.Windows.Forms.Button button78;
+        private System.Windows.Forms.Button button79;
+        private System.Windows.Forms.Button button80;
+        private System.Windows.Forms.Button button61;
+        private System.Windows.Forms.Button button62;
+        private System.Windows.Forms.Button button63;
+        private System.Windows.Forms.Button button64;
+        private System.Windows.Forms.Button button65;
+        private System.Windows.Forms.Button button66;
+        private System.Windows.Forms.Button button67;
+        private System.Windows.Forms.Button button68;
+        private System.Windows.Forms.Button button69;
+        private System.Windows.Forms.Button button70;
+        private System.Windows.Forms.Button button51;
+        private System.Windows.Forms.Button button52;
+        private System.Windows.Forms.Button button53;
+        private System.Windows.Forms.Button button54;
+        private System.Windows.Forms.Button button55;
+        private System.Windows.Forms.Button button56;
+        private System.Windows.Forms.Button button57;
+        private System.Windows.Forms.Button button58;
+        private System.Windows.Forms.Button button59;
+        private System.Windows.Forms.Button button60;
+        private System.Windows.Forms.Button button41;
+        private System.Windows.Forms.Button button42;
+        private System.Windows.Forms.Button button43;
+        private System.Windows.Forms.Button button44;
+        private System.Windows.Forms.Button button45;
+        private System.Windows.Forms.Button button46;
+        private System.Windows.Forms.Button button47;
+        private System.Windows.Forms.Button button48;
+        private System.Windows.Forms.Button button49;
+        private System.Windows.Forms.Button button50;
+        private System.Windows.Forms.Button button31;
+        private System.Windows.Forms.Button button32;
+        private System.Windows.Forms.Button button33;
+        private System.Windows.Forms.Button button34;
+        private System.Windows.Forms.Button button35;
+        private System.Windows.Forms.Button button36;
+        private System.Windows.Forms.Button button37;
+        private System.Windows.Forms.Button button38;
+        private System.Windows.Forms.Button button39;
+        private System.Windows.Forms.Button button40;
+        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.Button button23;
+        private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.Button button27;
+        private System.Windows.Forms.Button button28;
+        private System.Windows.Forms.Button button29;
+        private System.Windows.Forms.Button button30;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }

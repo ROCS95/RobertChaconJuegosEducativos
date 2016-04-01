@@ -38,6 +38,7 @@ namespace GUI
 
         private void btnCorreo_Click(object sender, EventArgs e)
         {
+            ///dgvRangking.SelectedCells.
             this.Hide();
             FrmCorreo co = new FrmCorreo();
             co.Show(this);

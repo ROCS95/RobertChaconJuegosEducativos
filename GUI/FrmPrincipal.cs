@@ -19,38 +19,62 @@ namespace GUI
             InitializeComponent();
         }
 
-        public int IdImagen { get; internal set; }
+        public int IdImagen1 { get; internal set; }
         public int IdVictorias { get; internal set; }
-        public Usuario Participante { get; internal set; }
+        public Usuario Participante1 { get; internal set; }
+        public Usuario Participante2 { get; internal set; }
+        public int IdImagen2 { get; internal set; }
+        UsuarioBO pbo;
 
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
-            tbxVictorias.Text = Convert.ToString(Participante.Victoria);
-            tbxTiempo.Text = Convert.ToString(Participante.TiempoPromedio) + " min";
-            pictureBox1.Image = Participante.Foto.Foto;
-            lblNombre.Text = Participante.Nombre;
-            lblUsuario.Text = Participante.User;
+            tbxVictorias.Text = Convert.ToString(Participante1.Victoria);
+            tbxTiempo.Text = Convert.ToString(Participante1.TiempoPromedio) + " min";
+            pictureBox1.Image = Participante1.Foto.Foto;
+            lblNombre.Text = Participante1.Nombre;
+            lblUsuario.Text = Participante1.User;
+            tbxVictorias2.Text = Convert.ToString(Participante2.Victoria);
+            tbxTiempo2.Text = Convert.ToString(Participante2.TiempoPromedio) + " min";
+            pictureBox2.Image = Participante2.Foto.Foto;
+            lblNombre2.Text = Participante2.Nombre;
+            lblUser2.Text = Participante2.User;
+            pbo = new UsuarioBO();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            EditarUsuario(IdImagen1, Participante1, 1);
+        }
+
+        private void EditarUsuario(int idImagen, Usuario participante, int pj)
+        {
             FrmRegistro reg = new FrmRegistro()
             {
                 Editar = 1,
-                User = Participante,
-                IdImagen = IdImagen
+                User = participante,
+                IdImagen = idImagen
             };
             this.Hide();
             if (reg.ShowDialog(this) == DialogResult.OK)
             {
-                UsuarioBO pbo = new UsuarioBO();
-                //Refrescar los datos del usuarios en el cuadro de texto
-                pbo.RefrescarUsuario(Participante);
-                lblNombre.Text = this.Participante.Nombre;
-                pictureBox1.Image = this.Participante.Foto != null ? this.Participante.Foto.Foto : null;
-                lblUsuario.Text = this.Participante.User;
+                if (pj == 1)
+                {
+                    //Refrescar los datos del usuarios en el cuadro de texto
+                    pbo.RefrescarUsuario(Participante1);
+                    lblNombre.Text = this.Participante1.Nombre;
+                    pictureBox1.Image = this.Participante1.Foto != null ? this.Participante1.Foto.Foto : null;
+                    lblUsuario.Text = this.Participante1.User;
+                }
+                else
+                {
+                    //Refrescar los datos del usuarios en el cuadro de texto
+                    pbo.RefrescarUsuario(Participante2);
+                    lblNombre.Text = this.Participante2.Nombre;
+                    pictureBox1.Image = this.Participante2.Foto != null ? this.Participante1.Foto.Foto : null;
+                    lblUsuario.Text = this.Participante2.User;
+                }
+
             }
-            
         }
 
         private void lblUsuario_Click(object sender, EventArgs e)
@@ -76,9 +100,28 @@ namespace GUI
 
         private void btnJugar_Click(object sender, EventArgs e)
         {
-            FrmJuego j = new FrmJuego();
+            FrmJuego j = new FrmJuego()
+            {
+                Participante1 = this.Participante1,
+                Participante2 = this.Participante2
+            };
             this.Hide();
             j.Show(this);
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            EditarUsuario(IdImagen2, Participante2, 2);
+        }
+
+        private void lblUser2_Click(object sender, EventArgs e)
+        {
+            pictureBox2_Click(sender, e);
+        }
+
+        private void lblNombre2_Click(object sender, EventArgs e)
+        {
+            pictureBox2_Click(sender, e);
         }
     }
 }

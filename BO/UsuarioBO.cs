@@ -57,9 +57,23 @@ namespace BO
             return udao.EditarUsuario(user);
         }
 
+        /// <summary>
+        /// refresca los datos del usuario
+        /// </summary>
+        /// <param name="participante">usuario a actualizar</param>
         public void RefrescarUsuario(Usuario participante)
         {
             udao.RefrescarUsuario(participante);
+        }
+
+        /// <summary>
+        /// actualisa el tiempo jugado y las victorias de un jugador
+        /// </summary>
+        /// <param name="participante">el jugador que gano</param>
+        /// <param name="tiempo">el tiempo en que gano</param>
+        public void Gano(Usuario participante, int tiempo)
+        {
+            udao.Gano(participante, tiempo);
         }
     }
 }

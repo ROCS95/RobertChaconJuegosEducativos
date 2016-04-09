@@ -11,6 +11,12 @@ namespace DAO
 {
     public class UsuarioDAO
     {
+
+        /// <summary>
+        /// autentifica que el usuario este registrado
+        /// </summary>
+        /// <param name="usuario">usuario a autentificar</param>
+        /// <returns></returns>
         public Usuario Autentificar(Usuario usuario)
         {
             NpgsqlConnection con = null;
@@ -57,6 +63,46 @@ namespace DAO
             }
         }
 
+        /// <summary>
+        /// actualisa el tiempo jugado y las victorias de un jugador
+        /// </summary>
+        /// <param name="participante">el jugador que gano</param>
+        /// <param name="tiempo">el tiempo en que gano</param>
+        public void Gano(Usuario participante, int tiempo)
+        {
+            NpgsqlConnection con = null;
+            try
+            {
+                Usuario p = new Usuario();
+                using (con = new NpgsqlConnection(Configuracion.CadenaConexion))
+                {
+                    con.Open();
+                    string sql = @"UPDATE public.usuario
+                                    SET victorias= :vic, tiempo_promedio= :tie
+                                    WHERE id = :id;";
+                    NpgsqlCommand cmd = new NpgsqlCommand(sql, con);
+                    cmd.Parameters.AddWithValue("vic", participante.Victoria + 1);
+                    cmd.Parameters.AddWithValue("tie", participante.TiempoPromedio + tiempo);
+                    cmd.Parameters.AddWithValue("id", participante.Id);
+                    cmd.ExecuteNonQuery();
+                    con.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                if (con != null)
+                {
+                    con.Close();
+                }
+
+                throw new Exception(ex.Message);
+            }
+        }
+
+        /// <summary>
+        /// refresca los datos del usuario
+        /// </summary>
+        /// <param name="participante">usuario a actualizar</param>
         public void RefrescarUsuario(Usuario participante)
         {
             NpgsqlConnection con = null;
@@ -118,7 +164,7 @@ namespace DAO
                     NpgsqlCommand cmd = new NpgsqlCommand(sql, con);
                     NpgsqlDataAdapter da = new NpgsqlDataAdapter();
                     da.SelectCommand = cmd;
-                    
+
                     da.Fill(tablaDS);
                     dt = tablaDS.Tables[0];
                     con.Close();

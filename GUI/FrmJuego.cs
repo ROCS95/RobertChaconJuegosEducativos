@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Entidades;
+using BO;
 
 namespace GUI
 {
@@ -23,7 +24,8 @@ namespace GUI
         int oprtunidad;
         int pturnoj1;
         int pturnoj2;
-
+        UsuarioBO ubo;
+        DateTime inicio;
 
         public FrmJuego()
         {
@@ -35,13 +37,17 @@ namespace GUI
             turno = 1;
             pturnoj1 = 0;
             pturnoj2 = 0;
+            ubo = new UsuarioBO();
             oprtunidad = 2;
         }
 
         private void FrmJuego_Load(object sender, EventArgs e)
         {
             ElegirParticipante();
+            inicio = DateTime.Now;
+            tj1.Visible = true;
         }
+
         /// <summary>
         /// Elige el que va a ser el primer juggador
         /// </summary>
@@ -137,6 +143,7 @@ namespace GUI
 
         private void FrmJuego_FormClosed(object sender, FormClosedEventArgs e)
         {
+            this.DialogResult = DialogResult.OK;
             Owner.Show();
         }
 
@@ -146,6 +153,12 @@ namespace GUI
             oprtunidad = 2;
         }
 
+        /// <summary>
+        /// mueve las fichas del juego
+        /// </summary>
+        /// <param name="i">numero de casilla</param>
+        /// <param name="boton">sender convertido en boton</param>
+        /// <param name="j">1 = trampa 2 = no es trampa</param>
         private void MoverFicha(int i, Button boton, int j)
         {
             if (total != 0)
@@ -161,13 +174,30 @@ namespace GUI
                     }
                     if (total1 == i || total2 == i)
                     {
+                        if (pturnoj1 > pturnoj2)
+                        {
+                            pturnoj2--;
+                        }
+                        else if (pturnoj1 < pturnoj2)
+                        {
+                            pturnoj1--;
+                        }
+                        else if (pturnoj1 == pturnoj2)
+                        {
+                            pturnoj1 = 0;
+                            pturnoj2 = 0;
+                        }
                         if (pturnoj1 == 2 || pturnoj1 == 1)
                         {
                             turno = 2;
+                            tj1.Visible = false;
+                            tj2.Visible = true;
                         }
                         else if (pturnoj2 == 2 || pturnoj2 == 1)
                         {
                             turno = 1;
+                            tj2.Visible = false;
+                            tj1.Visible = true;
                         }
                         if (turno == 1)
                         {
@@ -176,21 +206,27 @@ namespace GUI
                             if (j == 1 && oprtunidad == 2)
                             {
                                 pturnoj1 = 2;
+                                MessageBox.Show(Participante1.User + ", Perdio 1 turnos");
                             }
                             else if (j == 1 && oprtunidad == 1)
                             {
                                 pturnoj1 = 3;
+                                MessageBox.Show(Participante1.User + ", Perdio 2 turnos");
                             }
                             turno++;
                             posj1 += total;
 
-                            if (posj1 < 120)
+                            if (int.Parse(boton.Text) < 120)
                             {
                                 btnDado.Enabled = true;
+                                tj1.Visible = false;
+                                tj2.Visible = true;
                             }
                             else
                             {
                                 MessageBox.Show("Felicidades " + Participante1.User + " gano!");
+                                int tiempo = DateTime.Now.Hour - inicio.Hour;
+                                ubo.Gano(Participante1, tiempo);
                             }
                             if (pturnoj2 == 2 || pturnoj2 == 1)
                             {
@@ -200,14 +236,16 @@ namespace GUI
                         }
                         else
                         {
-                            pj2.Location = new Point(boton.Location.X, boton.Location.Y+10);
+                            pj2.Location = new Point(boton.Location.X, boton.Location.Y + 20);
                             if (j == 1 && oprtunidad == 2)
                             {
                                 pturnoj2 = 2;
+                                MessageBox.Show(Participante1.User + ", Perdio 1 turnos");
                             }
                             else if (j == 1 && oprtunidad == 1)
                             {
                                 pturnoj2 = 3;
+                                MessageBox.Show(Participante1.User + ", Perdio 2 turnos");
                             }
                             turno--;
                             posj2 += total;
@@ -215,18 +253,21 @@ namespace GUI
                             {
                                 pturnoj1--;
                             }
-                            if (posj2 < 120)
+                            if (int.Parse(boton.Text) < 120)
                             {
                                 btnDado.Enabled = true;
+                                tj2.Visible = false;
+                                tj1.Visible = true;
                             }
                             else
                             {
                                 MessageBox.Show("Felicidades " + Participante2.User + " gano!");
-
+                                int tiempo = DateTime.Now.Hour - inicio.Hour;
+                                ubo.Gano(Participante2, tiempo);
                             }
                             if (pturnoj1 == 2 || pturnoj1 == 1)
                             {
-                                pturnoj1--; 
+                                pturnoj1--;
                             }
                         }
                     }

@@ -106,7 +106,15 @@ namespace GUI
                 Participante2 = this.Participante2
             };
             this.Hide();
-            j.Show(this);
+            if (j.ShowDialog(this) == DialogResult.OK)
+            {
+                pbo.RefrescarUsuario(Participante1);
+                tbxVictorias.Text = Convert.ToString(Participante1.Victoria);
+                tbxTiempo.Text = Convert.ToString(Participante1.TiempoPromedio) + " min";
+                pbo.RefrescarUsuario(Participante2);
+                tbxVictorias2.Text = Convert.ToString(Participante2.Victoria);
+                tbxTiempo2.Text = Convert.ToString(Participante2.TiempoPromedio) + " min";
+            }
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)

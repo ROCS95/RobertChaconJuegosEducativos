@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmJuego));
             this.btnDado = new System.Windows.Forms.Button();
             this.lblJ2 = new System.Windows.Forms.Label();
             this.lblJ1 = new System.Windows.Forms.Label();
@@ -143,26 +144,28 @@
             this.btn25 = new System.Windows.Forms.Button();
             this.btn13 = new System.Windows.Forms.Button();
             this.btn117 = new System.Windows.Forms.Button();
-            this.btn120 = new System.Windows.Forms.Button();
             this.btn24 = new System.Windows.Forms.Button();
             this.btn91 = new System.Windows.Forms.Button();
             this.btn7 = new System.Windows.Forms.Button();
             this.btn76 = new System.Windows.Forms.Button();
             this.btn52 = new System.Windows.Forms.Button();
             this.btn49 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pj1 = new System.Windows.Forms.Button();
+            this.pj2 = new System.Windows.Forms.Button();
             this.btn1 = new System.Windows.Forms.Button();
+            this.btn120 = new System.Windows.Forms.Button();
             this.pbxDado2 = new System.Windows.Forms.PictureBox();
             this.pbxDado1 = new System.Windows.Forms.PictureBox();
             this.pbxJ1 = new System.Windows.Forms.PictureBox();
             this.pbxJ2 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pj2 = new System.Windows.Forms.Button();
-            this.pj1 = new System.Windows.Forms.Button();
+            this.tj1 = new System.Windows.Forms.Label();
+            this.tj2 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxDado2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxDado1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxJ1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxJ2)).BeginInit();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnDado
@@ -181,7 +184,7 @@
             this.lblJ2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblJ2.AutoSize = true;
             this.lblJ2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblJ2.Location = new System.Drawing.Point(1137, 151);
+            this.lblJ2.Location = new System.Drawing.Point(1138, 145);
             this.lblJ2.Name = "lblJ2";
             this.lblJ2.Size = new System.Drawing.Size(54, 13);
             this.lblJ2.TabIndex = 128;
@@ -1647,7 +1650,7 @@
             this.btn117.AllowDrop = true;
             this.btn117.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn117.BackColor = System.Drawing.Color.Transparent;
-            this.btn117.BackgroundImage = global::GUI.Properties.Resources.bola117;
+            this.btn117.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn117.BackgroundImage")));
             this.btn117.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn117.Location = new System.Drawing.Point(601, 581);
             this.btn117.Name = "btn117";
@@ -1657,27 +1660,12 @@
             this.btn117.UseVisualStyleBackColor = false;
             this.btn117.Click += new System.EventHandler(this.btn117_Click);
             // 
-            // btn120
-            // 
-            this.btn120.AllowDrop = true;
-            this.btn120.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn120.BackColor = System.Drawing.Color.Transparent;
-            this.btn120.BackgroundImage = global::GUI.Properties.Resources.Arbol;
-            this.btn120.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn120.Location = new System.Drawing.Point(808, 581);
-            this.btn120.Name = "btn120";
-            this.btn120.Size = new System.Drawing.Size(63, 58);
-            this.btn120.TabIndex = 220;
-            this.btn120.Text = "120";
-            this.btn120.UseVisualStyleBackColor = false;
-            this.btn120.Click += new System.EventHandler(this.btn120_Click);
-            // 
             // btn24
             // 
             this.btn24.AllowDrop = true;
             this.btn24.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn24.BackColor = System.Drawing.Color.Transparent;
-            this.btn24.BackgroundImage = global::GUI.Properties.Resources.bola24;
+            this.btn24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn24.BackgroundImage")));
             this.btn24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn24.Location = new System.Drawing.Point(808, 69);
             this.btn24.Name = "btn24";
@@ -1692,7 +1680,7 @@
             this.btn91.AllowDrop = true;
             this.btn91.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn91.BackColor = System.Drawing.Color.Transparent;
-            this.btn91.BackgroundImage = global::GUI.Properties.Resources.bola91;
+            this.btn91.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn91.BackgroundImage")));
             this.btn91.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn91.Location = new System.Drawing.Point(463, 453);
             this.btn91.Name = "btn91";
@@ -1707,7 +1695,7 @@
             this.btn7.AllowDrop = true;
             this.btn7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn7.BackColor = System.Drawing.Color.Transparent;
-            this.btn7.BackgroundImage = global::GUI.Properties.Resources.bola7;
+            this.btn7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn7.BackgroundImage")));
             this.btn7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn7.Location = new System.Drawing.Point(463, 5);
             this.btn7.Name = "btn7";
@@ -1722,7 +1710,7 @@
             this.btn76.AllowDrop = true;
             this.btn76.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn76.BackColor = System.Drawing.Color.Transparent;
-            this.btn76.BackgroundImage = global::GUI.Properties.Resources.bola76;
+            this.btn76.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn76.BackgroundImage")));
             this.btn76.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn76.Location = new System.Drawing.Point(256, 389);
             this.btn76.Name = "btn76";
@@ -1737,7 +1725,7 @@
             this.btn52.AllowDrop = true;
             this.btn52.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn52.BackColor = System.Drawing.Color.Transparent;
-            this.btn52.BackgroundImage = global::GUI.Properties.Resources.bola52;
+            this.btn52.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn52.BackgroundImage")));
             this.btn52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn52.Location = new System.Drawing.Point(256, 261);
             this.btn52.Name = "btn52";
@@ -1752,7 +1740,7 @@
             this.btn49.AllowDrop = true;
             this.btn49.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn49.BackColor = System.Drawing.Color.Transparent;
-            this.btn49.BackgroundImage = global::GUI.Properties.Resources.bola49;
+            this.btn49.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn49.BackgroundImage")));
             this.btn49.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn49.Location = new System.Drawing.Point(49, 261);
             this.btn49.Name = "btn49";
@@ -1761,65 +1749,6 @@
             this.btn49.Text = "49";
             this.btn49.UseVisualStyleBackColor = false;
             this.btn49.Click += new System.EventHandler(this.btn49_Click);
-            // 
-            // btn1
-            // 
-            this.btn1.AllowDrop = true;
-            this.btn1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn1.BackColor = System.Drawing.Color.Transparent;
-            this.btn1.BackgroundImage = global::GUI.Properties.Resources.santa;
-            this.btn1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn1.Location = new System.Drawing.Point(49, 5);
-            this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(63, 58);
-            this.btn1.TabIndex = 131;
-            this.btn1.Text = "1";
-            this.btn1.UseVisualStyleBackColor = false;
-            this.btn1.Click += new System.EventHandler(this.btn1_Click);
-            // 
-            // pbxDado2
-            // 
-            this.pbxDado2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbxDado2.Image = global::GUI.Properties.Resources._1;
-            this.pbxDado2.Location = new System.Drawing.Point(1088, 193);
-            this.pbxDado2.Name = "pbxDado2";
-            this.pbxDado2.Size = new System.Drawing.Size(138, 145);
-            this.pbxDado2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxDado2.TabIndex = 130;
-            this.pbxDado2.TabStop = false;
-            // 
-            // pbxDado1
-            // 
-            this.pbxDado1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbxDado1.Image = global::GUI.Properties.Resources._6;
-            this.pbxDado1.Location = new System.Drawing.Point(1088, 344);
-            this.pbxDado1.Name = "pbxDado1";
-            this.pbxDado1.Size = new System.Drawing.Size(138, 145);
-            this.pbxDado1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxDado1.TabIndex = 127;
-            this.pbxDado1.TabStop = false;
-            // 
-            // pbxJ1
-            // 
-            this.pbxJ1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbxJ1.Image = global::GUI.Properties.Resources.users1;
-            this.pbxJ1.Location = new System.Drawing.Point(33, 24);
-            this.pbxJ1.Name = "pbxJ1";
-            this.pbxJ1.Size = new System.Drawing.Size(137, 102);
-            this.pbxJ1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxJ1.TabIndex = 125;
-            this.pbxJ1.TabStop = false;
-            // 
-            // pbxJ2
-            // 
-            this.pbxJ2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pbxJ2.Image = global::GUI.Properties.Resources.users1;
-            this.pbxJ2.Location = new System.Drawing.Point(1098, 24);
-            this.pbxJ2.Name = "pbxJ2";
-            this.pbxJ2.Size = new System.Drawing.Size(128, 102);
-            this.pbxJ2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbxJ2.TabIndex = 124;
-            this.pbxJ2.TabStop = false;
             // 
             // panel1
             // 
@@ -1951,18 +1880,9 @@
             this.panel1.Size = new System.Drawing.Size(891, 646);
             this.panel1.TabIndex = 253;
             // 
-            // pj2
-            // 
-            this.pj2.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.pj2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pj2.Location = new System.Drawing.Point(49, 43);
-            this.pj2.Name = "pj2";
-            this.pj2.Size = new System.Drawing.Size(20, 20);
-            this.pj2.TabIndex = 252;
-            this.pj2.UseVisualStyleBackColor = false;
-            // 
             // pj1
             // 
+            this.pj1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pj1.BackColor = System.Drawing.Color.Maroon;
             this.pj1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.pj1.Location = new System.Drawing.Point(49, 5);
@@ -1971,11 +1891,122 @@
             this.pj1.TabIndex = 253;
             this.pj1.UseVisualStyleBackColor = false;
             // 
+            // pj2
+            // 
+            this.pj2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pj2.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.pj2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.pj2.Location = new System.Drawing.Point(49, 43);
+            this.pj2.Name = "pj2";
+            this.pj2.Size = new System.Drawing.Size(20, 20);
+            this.pj2.TabIndex = 252;
+            this.pj2.UseVisualStyleBackColor = false;
+            // 
+            // btn1
+            // 
+            this.btn1.AllowDrop = true;
+            this.btn1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn1.BackColor = System.Drawing.Color.Transparent;
+            this.btn1.BackgroundImage = global::GUI.Properties.Resources.santa;
+            this.btn1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn1.Location = new System.Drawing.Point(49, 5);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(63, 58);
+            this.btn1.TabIndex = 131;
+            this.btn1.Text = "1";
+            this.btn1.UseVisualStyleBackColor = false;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
+            // 
+            // btn120
+            // 
+            this.btn120.AllowDrop = true;
+            this.btn120.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn120.BackColor = System.Drawing.Color.Transparent;
+            this.btn120.BackgroundImage = global::GUI.Properties.Resources.Arbol;
+            this.btn120.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn120.Location = new System.Drawing.Point(808, 581);
+            this.btn120.Name = "btn120";
+            this.btn120.Size = new System.Drawing.Size(63, 58);
+            this.btn120.TabIndex = 220;
+            this.btn120.Text = "120";
+            this.btn120.UseVisualStyleBackColor = false;
+            this.btn120.Click += new System.EventHandler(this.btn120_Click);
+            // 
+            // pbxDado2
+            // 
+            this.pbxDado2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbxDado2.Image = global::GUI.Properties.Resources._1;
+            this.pbxDado2.Location = new System.Drawing.Point(1088, 193);
+            this.pbxDado2.Name = "pbxDado2";
+            this.pbxDado2.Size = new System.Drawing.Size(138, 145);
+            this.pbxDado2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxDado2.TabIndex = 130;
+            this.pbxDado2.TabStop = false;
+            // 
+            // pbxDado1
+            // 
+            this.pbxDado1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbxDado1.Image = global::GUI.Properties.Resources._6;
+            this.pbxDado1.Location = new System.Drawing.Point(1088, 344);
+            this.pbxDado1.Name = "pbxDado1";
+            this.pbxDado1.Size = new System.Drawing.Size(138, 145);
+            this.pbxDado1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxDado1.TabIndex = 127;
+            this.pbxDado1.TabStop = false;
+            // 
+            // pbxJ1
+            // 
+            this.pbxJ1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbxJ1.Image = global::GUI.Properties.Resources.users1;
+            this.pbxJ1.Location = new System.Drawing.Point(33, 24);
+            this.pbxJ1.Name = "pbxJ1";
+            this.pbxJ1.Size = new System.Drawing.Size(137, 102);
+            this.pbxJ1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxJ1.TabIndex = 125;
+            this.pbxJ1.TabStop = false;
+            // 
+            // pbxJ2
+            // 
+            this.pbxJ2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbxJ2.Image = global::GUI.Properties.Resources.users1;
+            this.pbxJ2.Location = new System.Drawing.Point(1098, 24);
+            this.pbxJ2.Name = "pbxJ2";
+            this.pbxJ2.Size = new System.Drawing.Size(128, 102);
+            this.pbxJ2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxJ2.TabIndex = 124;
+            this.pbxJ2.TabStop = false;
+            // 
+            // tj1
+            // 
+            this.tj1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tj1.AutoSize = true;
+            this.tj1.ForeColor = System.Drawing.Color.Maroon;
+            this.tj1.Location = new System.Drawing.Point(71, 179);
+            this.tj1.Name = "tj1";
+            this.tj1.Size = new System.Drawing.Size(49, 13);
+            this.tj1.TabIndex = 254;
+            this.tj1.Text = "Mi Turno";
+            this.tj1.Visible = false;
+            // 
+            // tj2
+            // 
+            this.tj2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tj2.AutoSize = true;
+            this.tj2.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.tj2.Location = new System.Drawing.Point(1138, 168);
+            this.tj2.Name = "tj2";
+            this.tj2.Size = new System.Drawing.Size(49, 13);
+            this.tj2.TabIndex = 255;
+            this.tj2.Text = "Mi Turno";
+            this.tj2.Visible = false;
+            // 
             // FrmJuego
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1252, 670);
+            this.Controls.Add(this.tj2);
+            this.Controls.Add(this.tj1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pbxDado2);
             this.Controls.Add(this.lblJ1);
@@ -1990,11 +2021,11 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmJuego_FormClosed);
             this.Load += new System.EventHandler(this.FrmJuego_Load);
+            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbxDado2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxDado1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxJ1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxJ2)).EndInit();
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2131,5 +2162,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button pj2;
         private System.Windows.Forms.Button pj1;
+        private System.Windows.Forms.Label tj1;
+        private System.Windows.Forms.Label tj2;
     }
 }

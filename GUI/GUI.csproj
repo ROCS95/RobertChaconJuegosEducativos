@@ -61,12 +61,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Fichas.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Fichas.Designer.cs">
-      <DependentUpon>Fichas.cs</DependentUpon>
-    </Compile>
     <Compile Include="FrmCorreo.cs">
       <SubType>Form</SubType>
     </Compile>

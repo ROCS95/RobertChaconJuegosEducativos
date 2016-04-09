@@ -11,6 +11,11 @@ namespace BO
 {
     public class CorreoBO
     {
+        /// <summary>
+        /// envia un correo
+        /// </summary>
+        /// <param name="correo">Email de donde se quiere enviar el correo</param>
+        /// <returns></returns>
         public bool EnviarCorreo(Correo correo)
         {
             if (String.IsNullOrEmpty(correo.From))

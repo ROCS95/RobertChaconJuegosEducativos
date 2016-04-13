@@ -20,17 +20,7 @@ namespace GUI
         public FrmCorreo()
         {
             InitializeComponent();
-           
-        }
 
-        private void FrmCorreo_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            Owner.Show();
-        }
-
-        private void btnCancel_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
 
         private void FrmCorreo_Load(object sender, EventArgs e)
@@ -44,14 +34,15 @@ namespace GUI
             try
             {
                 lblMensaje.Text = "";
-                co.From = tbxFrom.Text;
+                co.From = "robertchsoto@gmail.com";
                 co.To = tbxTo.Text;
-                co.password = tbxpaswork.Text;
+                co.Cuerpo = tbxcuerpo.Text;
+                co.Password = "corcho195";
                 if (cbo.EnviarCorreo(co))
                 {
                     MessageBox.Show("Correo Se envio con exito");
                     this.DialogResult = DialogResult.OK;
-                    this.Close();
+                    //this.Close();
                 }
                 else
                 {
@@ -66,6 +57,12 @@ namespace GUI
                 lblMensaje.Text = rgx.Replace(ex.Message, "");
             }
 
+        }
+
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

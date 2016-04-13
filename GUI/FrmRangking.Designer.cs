@@ -76,6 +76,7 @@
             this.Name = "FrmRangking";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmRangking";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmRangking_FormClosed);
             this.Load += new System.EventHandler(this.FrmRangking_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvRangking)).EndInit();
             this.ResumeLayout(false);

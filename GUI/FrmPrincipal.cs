@@ -94,8 +94,10 @@ namespace GUI
 
         private void btnrangkin_Click(object sender, EventArgs e)
         {
+            this.Hide();
             FrmRangking rang = new FrmRangking();
             rang.ShowDialog(this);
+            
         }
 
         private void btnJugar_Click(object sender, EventArgs e)

@@ -10,6 +10,7 @@ namespace Entidades
     {
         public string From { get; set; }
         public string To { get; set; }
-        public string password { get; set; }
+        public string Password { get; set; }
+        public string Cuerpo { get; set; }
     }
 }

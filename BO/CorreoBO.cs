@@ -26,7 +26,7 @@ namespace BO
             {
                 throw new Exception("To es requerido");
             }
-            if (String.IsNullOrEmpty(correo.password))
+            if (String.IsNullOrEmpty(correo.Password))
             {
                 throw new Exception("EmailPassword es requerido");
             }
@@ -36,16 +36,16 @@ namespace BO
                 email.To.Add(new MailAddress(correo.To));
                 email.From = new MailAddress(correo.From);
                 email.Subject = "Asunto ( " + DateTime.Now.ToString("dd / MMM / yyy hh:mm:ss") + " ) ";
-                email.Body = "<b>y aqui pondria el top 5... Si tuviera uno!</b>";
-                email.IsBodyHtml = true;
+                email.Body = "y aqui pondria el top 5... Si tuviera uno! " + correo.Cuerpo;
+                email.IsBodyHtml = false;
                 email.Priority = MailPriority.Normal;
 
                 SmtpClient smtp = new SmtpClient();
                 smtp.Host = "smtp.gmail.com";
-                smtp.Port = 2525;
+                smtp.Port = 587;
                 smtp.EnableSsl = false;
                 smtp.UseDefaultCredentials = false;
-                smtp.Credentials = new NetworkCredential(correo.From, correo.password);
+                smtp.Credentials = new NetworkCredential(correo.From, correo.Password);
 
                 smtp.Send(email);
                 email.Dispose();
